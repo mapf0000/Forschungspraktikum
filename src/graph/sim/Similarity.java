@@ -1,15 +1,9 @@
 package graph.sim;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
-
 import org.apache.commons.lang3.StringUtils;
 
 import graph.Edge;
 import graph.Node;
-import graph.WorkflowGraph;
-import graph.mapping.Mapping;
 
 public class Similarity {
 	public static String sim = "lex";

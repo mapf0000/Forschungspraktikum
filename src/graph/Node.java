@@ -1,12 +1,9 @@
 package graph;
 
-import graph.sim.TaxonomyNode;
-
 public class Node {
 	private String description;
 	private String bpmnType;
 	private String id;
-	private TaxonomyNode tax;
 
 	public Node(String description, String bpmnType, String id){
 		this.description = description;

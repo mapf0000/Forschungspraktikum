@@ -1,7 +1,5 @@
 package graph.sim;
 
-import org.apache.commons.lang3.SerializationUtils;
-
 import graph.Edge;
 import graph.Node;
 import graph.WorkflowGraph;
@@ -42,7 +40,6 @@ public class AStarSearch {
 	}
 	
 	public ArrayList<SearchNode> expand(ArrayList<SearchNode> queue){
-		boolean nodesMapped = false;
 		SearchNode s = queue.get(0);
 		queue.remove(0);
 		//System.out.println(s.nodes.size());
@@ -64,7 +61,6 @@ public class AStarSearch {
 					sNew.f = sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()) + h(sNew);
 					queue.add(sNew);
 					mapped = true;
-					nodesMapped = true;
 				}
 			}
 			if(!mapped){
@@ -115,100 +111,4 @@ public class AStarSearch {
 		return h;
 	}
 	
-	/**
-	 * TODO A*II
-	 * 
-	 */
-	public ArrayList<SearchNode> expand2(ArrayList<SearchNode> queue){
-		boolean nodesMapped = false;
-		SearchNode s = queue.get(0);
-		queue.remove(0);
-		for(Edge xQ: s.edges){
-			if(!s.nodes.contains(xQ.getTail()) && !s.nodes.contains(xQ.getHead())){
-				boolean mapped = false;
-				for(Edge eC: caseWorkflow.edges){
-					if(s.mapping.isLegalMapping(xQ, eC)){
-						//System.out.println("New Edge Mapping");
-						SearchNode sNew = new SearchNode();
-						sNew.mapping = new Mapping();
-						sNew.mapping.nodeEntries = (ArrayList<NodeEntry>) s.mapping.nodeEntries.clone();
-						sNew.mapping.edgeEntries = (ArrayList<EdgeEntry>) s.mapping.edgeEntries.clone();
-						sNew.mapping.mapEdges(xQ, eC);
-						//System.out.println("Similarity: " + sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()));
-						sNew.nodes = (ArrayList<Node>) s.nodes.clone();
-						sNew.edges = (ArrayList<Edge>) s.edges.clone();
-						sNew.edges.remove(xQ);
-						sNew.f = sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()) + h(sNew);
-						queue.add(sNew);
-						mapped = true;
-					}
-				}
-				if(!mapped){
-					s.edges.remove(xQ);
-					queue.add(s);
-				}
-			}
-		}
-		if(!s.edges.isEmpty()){
-			boolean mapped = false;
-			Edge xQ = s.edges.get(new Random().nextInt(s.edges.size()));
-			for(Edge eC: caseWorkflow.edges){
-				//TODO LEGAL MAPPING FIXEN
-				if(s.mapping.isLegalMapping(xQ, eC)){
-					//System.out.println("New Edge Mapping");
-					SearchNode sNew = new SearchNode();
-					sNew.mapping = new Mapping();
-					sNew.mapping.nodeEntries = (ArrayList<NodeEntry>) s.mapping.nodeEntries.clone();
-					sNew.mapping.edgeEntries = (ArrayList<EdgeEntry>) s.mapping.edgeEntries.clone();
-					sNew.mapping.mapEdges(xQ, eC);
-					//System.out.println("Similarity: " + sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()));
-					sNew.nodes = (ArrayList<Node>) s.nodes.clone();
-					sNew.edges = (ArrayList<Edge>) s.edges.clone();
-					sNew.edges.remove(xQ);
-					sNew.f = sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()) + h(sNew);
-					queue.add(sNew);
-					mapped = true;
-				}
-			}
-			if(!mapped){
-				s.edges.remove(xQ);
-				queue.add(s);
-			}
-		}
-		
-		if(!s.nodes.isEmpty()){
-			boolean mapped = false;
-			Node xQ = s.nodes.get(new Random().nextInt(s.nodes.size()));
-			for(Node nC: caseWorkflow.nodes){
-				if(s.mapping.isLegalMapping(xQ, nC)){
-					//System.out.println("New Node Mapping");
-					SearchNode sNew = new SearchNode();
-					sNew.mapping = new Mapping();
-					sNew.mapping.nodeEntries = (ArrayList<NodeEntry>) s.mapping.nodeEntries.clone();
-					sNew.mapping.edgeEntries = (ArrayList<EdgeEntry>) s.mapping.edgeEntries.clone();
-					sNew.mapping.mapNodes(xQ, nC);
-					//System.out.println("Similarity: " + sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()));
-					sNew.nodes = (ArrayList<Node>) s.nodes.clone();
-					sNew.edges = (ArrayList<Edge>) s.edges.clone();
-					sNew.nodes.remove(xQ);
-					sNew.f = sNew.mapping.computeSimilarity(queryWorkflow.nodes.size(), queryWorkflow.edges.size()) + h(sNew);
-					queue.add(sNew);
-					mapped = true;
-					nodesMapped = true;
-				}
-			}
-			if(!mapped){
-				s.nodes.remove(xQ);
-				queue.add(s);
-			}
-		}
-		//Queue sortieren nach f
-		queue = queue.stream().sorted((s1, s2) -> Double.compare(s2.f, s1.f)).collect(Collectors.toCollection(ArrayList::new));
-		//queue.stream().sorted((s1, s2) -> Double.compare(s1.f, s2.f)).forEach(e -> System.out.println(e.f));
-//		for(SearchNode se: queue){
-//			System.out.println("SearchNode with f-value: " + se.f);
-//		}
-
-		return queue;
-	}
 }

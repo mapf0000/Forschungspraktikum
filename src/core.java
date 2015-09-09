@@ -1,83 +1,15 @@
-import graph.Edge;
-import graph.Node;
-import graph.WorkflowGraph;
-import graph.mapping.Mapping;
-import graph.sim.AStarSearch;
-import graph.sim.Retrieval;
-import graph.sim.Similarity;
-import graph.sim.TaxonomyNode;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-
-import org.json.JSONException;
 
 import bpmai.BpmaiImporter;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-
-
+import graph.Edge;
+import graph.Node;
+import graph.WorkflowGraph;
+import graph.sim.Retrieval;
 public class core {
 
-	public static void main(String[] args) throws IOException, JSONException {
-		
-//		WorkflowGraph w1 = new WorkflowGraph();
-//		w1.nodes.add(new Node("", "start"));
-//		w1.nodes.add(new Node("book flight", "Event"));
-		//BpmaiImporter.convertToWorkflowGraph(BpmaiImporter.importSingleModel("s"));
-
-//		WorkflowGraph queryTest = new WorkflowGraph();
-//		queryTest.nodes.add(new Node("", "StartEvent", "1"));
-//		queryTest.nodes.add(new Node("A", "Task", "2"));
-//		queryTest.nodes.add(new Node("B", "Task", "3"));
-//		queryTest.nodes.add(new Node("C", "Task", "4"));
-//		queryTest.nodes.add(new Node("D", "Task", "5"));
-//		queryTest.nodes.add(new Node("", "EndTask", "6"));
-//		queryTest.edges.add(new Edge("","1E",queryTest.nodes.get(0),queryTest.nodes.get(1)));
-//		queryTest.edges.add(new Edge("","2E",queryTest.nodes.get(1),queryTest.nodes.get(2)));
-//		queryTest.edges.add(new Edge("","3E",queryTest.nodes.get(2),queryTest.nodes.get(3)));
-//		queryTest.edges.add(new Edge("","4E",queryTest.nodes.get(3),queryTest.nodes.get(4)));
-//		queryTest.edges.add(new Edge("","5E",queryTest.nodes.get(4),queryTest.nodes.get(5)));
-//		WorkflowGraph caseTest = new WorkflowGraph();
-//		caseTest.nodes.add(new Node("", "StartEvent", "1"));
-//		caseTest.nodes.add(new Node("A", "Task", "2"));
-//		caseTest.nodes.add(new Node("B", "Task", "3"));
-//		caseTest.nodes.add(new Node("C", "Task", "4"));
-//		caseTest.nodes.add(new Node("D", "Task", "5"));
-//		caseTest.nodes.add(new Node("", "EndTask", "6"));
-//		caseTest.edges.add(new Edge("","1E",caseTest.nodes.get(0),caseTest.nodes.get(1)));
-//		caseTest.edges.add(new Edge("","2E",caseTest.nodes.get(1),caseTest.nodes.get(2)));
-//		caseTest.edges.add(new Edge("","3E",caseTest.nodes.get(2),caseTest.nodes.get(3)));
-//		caseTest.edges.add(new Edge("","4E",caseTest.nodes.get(3),caseTest.nodes.get(4)));
-//		caseTest.edges.add(new Edge("","5E",caseTest.nodes.get(4),caseTest.nodes.get(5)));
-//		System.out.println(Similarity.nodeSim(queryTest.nodes.get(0), caseTest.nodes.get(0)));	
-//		Mapping testMapping = new Mapping();
-//		testMapping.mapNodes(queryTest.nodes.get(0), caseTest.nodes.get(0));
-//		testMapping.mapNodes(queryTest.nodes.get(1), caseTest.nodes.get(1));
-//		testMapping.mapNodes(queryTest.nodes.get(2), caseTest.nodes.get(2));
-//		testMapping.mapNodes(queryTest.nodes.get(3), caseTest.nodes.get(3));
-//		testMapping.mapNodes(queryTest.nodes.get(4), caseTest.nodes.get(4));
-//		testMapping.mapEdges(queryTest.edges.get(0), caseTest.edges.get(0));
-//		testMapping.mapEdges(queryTest.edges.get(1), caseTest.edges.get(1));
-//		testMapping.mapEdges(queryTest.edges.get(2), caseTest.edges.get(2));
-//		testMapping.mapEdges(queryTest.edges.get(3), caseTest.edges.get(3));
-		//System.out.println(testMapping.computeSimilarity(queryTest.nodes.size(), queryTest.edges.size()));
-		
-//		AStarSearch AStar = new AStarSearch(queryTest, caseTest);
-//		AStar.aStarI();
-		
-//		AStarSearch AStar = new AStarSearch(repository.get(1), repository.get(5));
-//		Mapping a = AStar.aStarI();
-//		System.out.println("Similarity: " + a.computeSimilarity(repository.get(1).nodes.size(), repository.get(1).edges.size()));
-//		System.out.println(repository.get(1).file);
-//		a.printWithDescription();
-		
+	public static void main(String[] args) throws IOException {
 		/**
 		 * Anfragen
 		 * Domäne: Import/Export

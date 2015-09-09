@@ -2,8 +2,6 @@ package graph.mapping;
 
 import graph.Edge;
 
-import java.util.ArrayList;
-
 public class EdgeEntry {
 	public Edge eq;
 	public Edge ec;

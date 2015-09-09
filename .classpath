@@ -1,41 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="jars/promnicat.jar"/>
-	<classpathentry kind="lib" path="jars/orient-commons-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/orientdb-client-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/orientdb-core-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/orientdb-enterprise-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/orientdb-graphdb-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/orientdb-server-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/orientdb-tools-1.0rc6.jar"/>
-	<classpathentry kind="lib" path="jars/jdom-1.1.2.jar"/>
-	<classpathentry kind="lib" path="jars/org.json.jar"/>
-	<classpathentry kind="lib" path="jars/apache-commons.jar"/>
-	<classpathentry kind="lib" path="jars/bpmai.jar"/>
-	<classpathentry kind="lib" path="jars/commons-lang3-3.1.jar"/>
-	<classpathentry kind="lib" path="jars/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="jars/ecj-3.7.jar"/>
-	<classpathentry kind="lib" path="jars/hamcrest-all-1.2.jar"/>
-	<classpathentry kind="lib" path="jars/javaGeom-0.10.2.jar"/>
-	<classpathentry kind="lib" path="jars/jaws-bin.jar"/>
-	<classpathentry kind="lib" path="jars/jbpt.jar"/>
-	<classpathentry kind="lib" path="jars/junit.jar"/>
-	<classpathentry kind="lib" path="jars/jwnl.jar"/>
-	<classpathentry kind="lib" path="jars/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="jars/oryx-bpmn2.0.jar"/>
-	<classpathentry kind="lib" path="jars/persistence-api-1.0.jar"/>
-	<classpathentry kind="lib" path="jars/pnapi-java.jar"/>
-	<classpathentry kind="lib" path="jars/simmetrics.jar"/>
-	<classpathentry kind="lib" path="jars/slf4j-api-1.6.4.jar"/>
-	<classpathentry kind="lib" path="jars/spring-core-2.0.6.jar"/>
-	<classpathentry kind="lib" path="jars/stanford-corenlp-1.2.0.jar"/>
-	<classpathentry kind="lib" path="jars/stanford-parser.jar"/>
-	<classpathentry kind="lib" path="jars/uma.jar"/>
-	<classpathentry kind="lib" path="jars/weka-src.jar"/>
-	<classpathentry kind="lib" path="jars/weka.jar"/>
-	<classpathentry kind="lib" path="jars/commons-lang3-3.4.jar"/>
 	<classpathentry kind="lib" path="jars/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="jars/commons-lang3-3.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
