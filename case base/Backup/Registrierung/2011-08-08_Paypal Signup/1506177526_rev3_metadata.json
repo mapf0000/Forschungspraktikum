@@ -1,0 +1,28 @@
+{
+  "model" : {
+    "numberOfRevisions" : 3,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "476430627",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-08-08",
+    "modelName" : "Paypal Signup",
+    "modelId" : "1506177526"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 23,
+      "Task" : 7,
+      "SequenceFlow" : 11,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 3
+  }
+}

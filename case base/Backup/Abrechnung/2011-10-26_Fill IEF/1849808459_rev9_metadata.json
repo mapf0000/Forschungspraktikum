@@ -1,0 +1,35 @@
+{
+  "model" : {
+    "numberOfRevisions" : 9,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "589102875",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-26",
+    "modelName" : "Fill IEF",
+    "modelId" : "1849808459"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 48,
+      "StartNoneEvent" : 1,
+      "Association_Unidirectional" : 6,
+      "Subprocess" : 1,
+      "Association_Undirected" : 3,
+      "TextAnnotation" : 3,
+      "Task" : 6,
+      "DataObject" : 6,
+      "SequenceFlow" : 15,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 2,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2,
+      "IntermediateMessageEventThrowing" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 9
+  }
+}

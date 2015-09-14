@@ -145,10 +145,6 @@ public class core {
 		queryA5.nodes.add(new Node("Sort Invoices by Vendor", "Task", "2"));
 		queryA5.edges.add(new Edge("","1E",queryA5.nodes.get(0),queryA5.nodes.get(1)));
 
-		//importExportTaxonomy.findNode("document checking");
-		//System.out.println(importExportTaxonomy.findNode("document checking").level);
-		//System.out.println(importExportTaxonomy.getSimilartiy("submit export documents", "Release Goods"));
-		//ArrayList<WorkflowGraph> importExport = BpmaiImporter.importModelsFrom("/Users/Max/Desktop/Uni/Forschungspraktikum/casebase/ImportExport");
 		
 		//Import-Export Evaluation:
 //		ArrayList<WorkflowGraph> importExport = BpmaiImporter.importModelsFrom("/Users/Max/Desktop/Uni/Forschungspraktikum/casebase/ImportExport");
@@ -165,10 +161,10 @@ public class core {
 //		ret2.retrieve();
 		
 		//Abrechnung Evaluation
-		ArrayList<WorkflowGraph> abrechnungen = BpmaiImporter.importModelsFrom("/Users/Max/Desktop/Uni/Forschungspraktikum/casebase/abrechnung");
+		ArrayList<WorkflowGraph> abrechnungen = BpmaiImporter.importModelsFrom("case base/abrechnung");
 		abrechnungen.get(0).print();
-		graph.sim.Similarity.sim = "sem";
-		graph.sim.Similarity.tax = graph.sim.Taxonomy.accounting;
+		graph.sim.Similarity.sim = "lex";
+		graph.sim.Similarity.nodeTax = graph.sim.Taxonomy.accounting;
 		Retrieval ret2 = new Retrieval(queryA1, abrechnungen);
 		ret2.retrieve();
 		

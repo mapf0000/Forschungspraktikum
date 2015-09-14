@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 13,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "544316894",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-08-20",
+    "modelName" : "INB124 - Amazon Payment System",
+    "modelId" : "1024943999"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 93,
+      "Lane" : 1,
+      "SequenceFlow" : 52,
+      "Task" : 26,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 9,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 13
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "483538617",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-06-10",
+    "modelName" : "mvbp 4.24",
+    "modelId" : "1316231151"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 38,
+      "EndCancelEvent" : 1,
+      "processparticipant" : 1,
+      "Lane" : 1,
+      "Association_Undirected" : 1,
+      "SequenceFlow" : 17,
+      "Task" : 9,
+      "Pool" : 1,
+      "EndNoneEvent" : 2,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2,
+      "InclusiveGateway" : 1,
+      "StartMessageEvent" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

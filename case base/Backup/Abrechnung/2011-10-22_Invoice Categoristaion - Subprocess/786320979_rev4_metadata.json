@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 4,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "613624251",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-22",
+    "modelName" : "Invoice Categoristaion - Subprocess",
+    "modelId" : "786320979"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 25,
+      "SequenceFlow" : 7,
+      "Task" : 4,
+      "StartNoneEvent" : 1,
+      "DataObject" : 3,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "Exclusive_Databased_Gateway" : 1,
+      "Association_Unidirectional" : 6,
+      "EndErrorEvent" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 4
+  }
+}

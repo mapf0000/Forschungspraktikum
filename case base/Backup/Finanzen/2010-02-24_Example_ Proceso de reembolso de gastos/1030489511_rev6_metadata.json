@@ -1,0 +1,29 @@
+{
+  "model" : {
+    "numberOfRevisions" : 6,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "197430584",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-02-24",
+    "modelName" : "Example_ Proceso de reembolso de gastos",
+    "modelId" : "1030489511"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 37,
+      "IntermediateTimerEvent" : 2,
+      "SequenceFlow" : 19,
+      "Task" : 8,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 5,
+      "BPMNDiagram" : 1,
+      "StartMessageEvent" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 6
+  }
+}

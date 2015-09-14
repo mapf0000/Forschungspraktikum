@@ -1,0 +1,33 @@
+{
+  "model" : {
+    "numberOfRevisions" : 6,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "447593752",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-27",
+    "modelName" : "warehouse",
+    "modelId" : "421602194"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 48,
+      "Lane" : 1,
+      "IntermediateMessageEventCatching" : 1,
+      "Association_Undirected" : 2,
+      "SequenceFlow" : 22,
+      "Task" : 13,
+      "Pool" : 1,
+      "Exclusive_Databased_Gateway" : 4,
+      "BPMNDiagram" : 1,
+      "Association_Unidirectional" : 1,
+      "EndTerminateEvent" : 1,
+      "DataStore" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 6
+  }
+}

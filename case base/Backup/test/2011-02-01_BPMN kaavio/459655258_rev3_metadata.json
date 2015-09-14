@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 3,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "562045144",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-02-01",
+    "modelName" : "BPMN kaavio",
+    "modelId" : "459655258"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 88,
+      "Task" : 20,
+      "SequenceFlow" : 46,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 7,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 1,
+      "IntermediateEvent" : 11
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 3
+  }
+}

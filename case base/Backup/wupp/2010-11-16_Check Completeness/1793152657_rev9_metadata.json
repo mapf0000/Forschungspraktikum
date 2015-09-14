@@ -1,0 +1,32 @@
+{
+  "model" : {
+    "numberOfRevisions" : 9,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "317652010",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-11-16",
+    "modelName" : "Check Completeness",
+    "modelId" : "1793152657"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 33,
+      "Lane" : 2,
+      "DataObject" : 3,
+      "SequenceFlow" : 12,
+      "Task" : 5,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 4,
+      "BPMNDiagram" : 1,
+      "Association_Unidirectional" : 3
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 9
+  }
+}

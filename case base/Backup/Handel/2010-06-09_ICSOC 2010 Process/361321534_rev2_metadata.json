@@ -1,0 +1,32 @@
+{
+  "model" : {
+    "numberOfRevisions" : 2,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "59988072",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-06-09",
+    "modelName" : "ICSOC 2010 Process",
+    "modelId" : "361321534"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 27,
+      "Association_Bidirectional" : 2,
+      "SequenceFlow" : 11,
+      "StartNoneEvent" : 1,
+      "DataObject" : 1,
+      "Task" : 4,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 4,
+      "BPMNDiagram" : 1,
+      "Association_Unidirectional" : 1,
+      "DataStore" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 2
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "model" : {
+    "numberOfRevisions" : 2,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "613624251",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-22",
+    "modelName" : "Invoice Validation - Subprocess",
+    "modelId" : "194472040"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 38,
+      "IntermediateConditionalEvent" : 1,
+      "CollapsedSubprocess" : 3,
+      "SequenceFlow" : 12,
+      "DataObject" : 7,
+      "Task" : 2,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 1,
+      "BPMNDiagram" : 1,
+      "Association_Unidirectional" : 7,
+      "InclusiveGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 2
+  }
+}

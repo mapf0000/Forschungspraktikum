@@ -1,0 +1,33 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "148920857",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-09-01",
+    "modelName" : "Order Fullfillment and Procurement",
+    "modelId" : "56836676"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 29,
+      "Lane" : 1,
+      "IntermediateEscalationEvent" : 1,
+      "CollapsedSubprocess" : 2,
+      "IntermediateErrorEvent" : 1,
+      "SequenceFlow" : 12,
+      "Task" : 5,
+      "Pool" : 1,
+      "EndNoneEvent" : 3,
+      "Exclusive_Databased_Gateway" : 1,
+      "BPMNDiagram" : 1,
+      "StartMessageEvent" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

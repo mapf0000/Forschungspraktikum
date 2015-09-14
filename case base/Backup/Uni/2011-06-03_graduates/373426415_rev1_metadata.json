@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "619206740",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-06-03",
+    "modelName" : "graduates",
+    "modelId" : "373426415"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 33,
+      "Lane" : 1,
+      "SequenceFlow" : 16,
+      "Task" : 9,
+      "StartNoneEvent" : 1,
+      "Pool" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "Exclusive_Databased_Gateway" : 3
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

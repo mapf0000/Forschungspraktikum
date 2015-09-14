@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 3,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "942099115",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-23",
+    "modelName" : "Model 1.2 Sort Invoices",
+    "modelId" : "1021618104"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 14,
+      "Lane" : 1,
+      "Association_Undirected" : 1,
+      "TextAnnotation" : 1,
+      "SequenceFlow" : 4,
+      "Task" : 3,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 3
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "model" : {
+    "numberOfRevisions" : 2,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "370724367",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2012-04-16",
+    "modelName" : "Peaprotsess (Value Chain - old_existing)",
+    "modelId" : "543495877"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 10,
+      "CollapsedSubprocess" : 3,
+      "SequenceFlow" : 4,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 2
+  }
+}

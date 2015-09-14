@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 2,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1984126434",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-09-24",
+    "modelName" : "Tuti Duti BPM",
+    "modelId" : "2130290714"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 67,
+      "TextAnnotation" : 1,
+      "Association_Undirected" : 1,
+      "Task" : 17,
+      "SequenceFlow" : 36,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 9,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 3,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "498735829",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-03-09",
+    "modelName" : "Assignment 6 - Make Assessment on Customer Eligibility Sub-process",
+    "modelId" : "438161199"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 18,
+      "SequenceFlow" : 8,
+      "Task" : 3,
+      "StartNoneEvent" : 1,
+      "DataObject" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2,
+      "Association_Unidirectional" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 3
+  }
+}

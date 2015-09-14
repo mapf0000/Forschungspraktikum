@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 8,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "367593267",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-09",
+    "modelName" : "2 - Sub- Determine Invoice Priority",
+    "modelId" : "924160287"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 35,
+      "Subprocess" : 1,
+      "TextAnnotation" : 1,
+      "Association_Undirected" : 1,
+      "SequenceFlow" : 17,
+      "Task" : 7,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 5,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 8
+  }
+}

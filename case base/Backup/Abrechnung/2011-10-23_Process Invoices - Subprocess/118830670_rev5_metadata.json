@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 5,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "613624251",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-23",
+    "modelName" : "Process Invoices - Subprocess",
+    "modelId" : "118830670"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 28,
+      "IntermediateConditionalEvent" : 1,
+      "CollapsedSubprocess" : 3,
+      "SequenceFlow" : 14,
+      "StartNoneEvent" : 1,
+      "Task" : 4,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 1,
+      "BPMNDiagram" : 1,
+      "InclusiveGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 5
+  }
+}

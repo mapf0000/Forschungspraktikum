@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 4,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "236421887",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2012-03-10",
+    "modelName" : "Quiz3",
+    "modelId" : "1206511276"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 62,
+      "DataObject" : 14,
+      "SequenceFlow" : 15,
+      "Task" : 8,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "Exclusive_Databased_Gateway" : 4,
+      "Association_Unidirectional" : 18
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 4
+  }
+}

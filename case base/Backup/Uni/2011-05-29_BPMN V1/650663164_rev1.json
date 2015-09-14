@@ -1,0 +1,1019 @@
+{
+  "bounds" : {
+    "lowerRight" : {
+      "y" : 1050,
+      "x" : 1715
+    },
+    "upperLeft" : {
+      "y" : 0,
+      "x" : 0
+    }
+  },
+  "resourceId" : "canvas",
+  "childShapes" : [ {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 27.5,
+      "x" : 50
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 546,
+        "x" : 294.78125
+      },
+      "upperLeft" : {
+        "y" : 546,
+        "x" : 210.0625
+      }
+    },
+    "resourceId" : "sid-8770E952-175F-424E-8DC3-836D16425CB4",
+    "target" : {
+      "resourceId" : "sid-91701B2C-25CE-489A-94AF-899BF105DE7C"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Ask for \napproval",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-91701B2C-25CE-489A-94AF-899BF105DE7C"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 27.5,
+      "x" : 50
+    }, {
+      "y" : 20.5,
+      "x" : 20.5
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 546.4178909678736,
+        "x" : 449.8906329362875
+      },
+      "upperLeft" : {
+        "y" : 546.199203187251,
+        "x" : 395
+      }
+    },
+    "resourceId" : "sid-FDD6E043-F16C-44F4-B3AF-91E1BB8FBA92",
+    "target" : {
+      "resourceId" : "sid-65570217-400B-403F-8299-E675853630F0"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-65570217-400B-403F-8299-E675853630F0"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20.5,
+      "x" : 20.5
+    }, {
+      "y" : 471,
+      "x" : 470.5
+    }, {
+      "y" : 40,
+      "x" : 50
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 525.4453125,
+        "x" : 509.35546875
+      },
+      "upperLeft" : {
+        "y" : 471,
+        "x" : 470.5
+      }
+    },
+    "resourceId" : "sid-4F643104-0F6A-4DAF-8FEE-37FEA6816128",
+    "labels" : [ {
+      "to" : 2,
+      "ref" : "text_name",
+      "orientation" : "lr",
+      "distance" : 8,
+      "align" : "left",
+      "from" : 1,
+      "valign" : "bottom",
+      "y" : 471,
+      "x" : 506
+    } ],
+    "target" : {
+      "resourceId" : "sid-0F7E21C8-FA0F-492E-8114-79FA03D48EC7"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Senior Professor\n",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0F7E21C8-FA0F-492E-8114-79FA03D48EC7"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20.5,
+      "x" : 20.5
+    }, {
+      "y" : 626,
+      "x" : 470.5
+    }, {
+      "y" : 40,
+      "x" : 50
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 626,
+        "x" : 509.35546875
+      },
+      "upperLeft" : {
+        "y" : 566,
+        "x" : 470.5
+      }
+    },
+    "resourceId" : "sid-D72A08F5-3448-47B1-889A-7E9002712E2A",
+    "labels" : [ {
+      "to" : 2,
+      "ref" : "text_name",
+      "orientation" : "ur",
+      "distance" : -8,
+      "align" : "left",
+      "from" : 1,
+      "valign" : "top",
+      "y" : 626,
+      "x" : 504
+    } ],
+    "target" : {
+      "resourceId" : "sid-215ACB4B-74B8-4EC1-A115-57BAA6D9A475"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Junior Professor\n",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-215ACB4B-74B8-4EC1-A115-57BAA6D9A475"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 40,
+      "x" : 50
+    }, {
+      "y" : 20.5,
+      "x" : 20.5
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 471.40151071673205,
+        "x" : 644.718761230466
+      },
+      "upperLeft" : {
+        "y" : 471.2369668246445,
+        "x" : 610
+      }
+    },
+    "resourceId" : "sid-EFE79A57-DBB7-4914-9BCA-29FB126958DE",
+    "target" : {
+      "resourceId" : "sid-C81FDE0F-ACA7-4BA0-99DC-41CED7D29B25"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-C81FDE0F-ACA7-4BA0-99DC-41CED7D29B25"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20.5,
+      "x" : 20.5
+    }, {
+      "y" : 14,
+      "x" : 14
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 450.48438992994124,
+        "x" : 665.38516060071
+      },
+      "upperLeft" : {
+        "y" : 394.58201632005876,
+        "x" : 665.07968314929
+      }
+    },
+    "resourceId" : "sid-0866117C-3B79-4F45-84ED-7AE72F790E7D",
+    "labels" : [ {
+      "to" : 1,
+      "ref" : "text_name",
+      "distance" : -1.7595365713601494,
+      "align" : "center",
+      "from" : 0,
+      "valign" : "middle",
+      "y" : 424.0096148103912,
+      "x" : 665.2404896984175
+    } ],
+    "target" : {
+      "resourceId" : "sid-0B83C7E7-B0F0-4AAD-9106-CAB6701BBD50"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Rejected\n",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0B83C7E7-B0F0-4AAD-9106-CAB6701BBD50"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20.5,
+      "x" : 20.5
+    }, {
+      "y" : 471.5,
+      "x" : 725.5
+    }, {
+      "y" : 20.5,
+      "x" : 20.5
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 525.578125,
+        "x" : 725.5
+      },
+      "upperLeft" : {
+        "y" : 471.5,
+        "x" : 685
+      }
+    },
+    "resourceId" : "sid-407EA41A-6CA6-4CE5-ABEB-580AF9B64AEF",
+    "target" : {
+      "resourceId" : "sid-BEF4C977-02A7-43CC-8006-4CDD4033E589"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Approved\n",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-BEF4C977-02A7-43CC-8006-4CDD4033E589"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 40,
+      "x" : 50
+    }, {
+      "y" : 20.5,
+      "x" : 20.5
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 626.4015107167321,
+        "x" : 644.718761230466
+      },
+      "upperLeft" : {
+        "y" : 626.2369668246446,
+        "x" : 610
+      }
+    },
+    "resourceId" : "sid-3E1973CC-2A01-46F4-8112-2A38427BB0F5",
+    "target" : {
+      "resourceId" : "sid-03A591C0-0A04-4A92-8986-4E20E61E1B36"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-03A591C0-0A04-4A92-8986-4E20E61E1B36"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20.5,
+      "x" : 20.5
+    }, {
+      "y" : 14,
+      "x" : 14
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 695.9531429277333,
+        "x" : 665.3807308333996
+      },
+      "upperLeft" : {
+        "y" : 646.4179508222667,
+        "x" : 665.0841129166004
+      }
+    },
+    "resourceId" : "sid-79890144-C038-4573-A198-8B6D292156DA",
+    "labels" : [ {
+      "to" : 1,
+      "ref" : "text_name",
+      "distance" : 2.7245020531816677,
+      "align" : "center",
+      "from" : 0,
+      "valign" : "middle",
+      "y" : 663.9836859089279,
+      "x" : 665.2755467909645
+    } ],
+    "target" : {
+      "resourceId" : "sid-0F8DD4FB-4A5D-4B8D-9B2C-6D35E5499F28"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Rejected\n",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0F8DD4FB-4A5D-4B8D-9B2C-6D35E5499F28"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20.5,
+      "x" : 20.5
+    }, {
+      "y" : 626.5,
+      "x" : 725.5
+    }, {
+      "y" : 20.5,
+      "x" : 20.5
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 626.5,
+        "x" : 725.5
+      },
+      "upperLeft" : {
+        "y" : 566,
+        "x" : 685
+      }
+    },
+    "resourceId" : "sid-8CF92E9E-DB73-4566-A8DE-0EAA806832E0",
+    "labels" : [ {
+      "to" : 1,
+      "ref" : "text_name",
+      "orientation" : "ul",
+      "distance" : -7.5,
+      "align" : "left",
+      "from" : 0,
+      "valign" : "top",
+      "y" : 626.5,
+      "x" : 693
+    } ],
+    "target" : {
+      "resourceId" : "sid-BEF4C977-02A7-43CC-8006-4CDD4033E589"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "Approved",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-BEF4C977-02A7-43CC-8006-4CDD4033E589"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 561,
+        "x" : 210
+      },
+      "upperLeft" : {
+        "y" : 531,
+        "x" : 180
+      }
+    },
+    "resourceId" : "sid-20A45C65-251F-4E0D-AB01-13BB89A5B83B",
+    "childShapes" : [ ],
+    "properties" : {
+      "trigger" : "Message",
+      "operationname" : "",
+      "monitoring" : "",
+      "dataoutputassociations" : "",
+      "outputset" : "",
+      "name" : "Arrange meeting\nwith the President\n",
+      "messagename" : "",
+      "dataoutput" : "",
+      "documentation" : "",
+      "applyincalc" : true,
+      "viaitsystem" : "",
+      "frequency" : "",
+      "auditing" : "",
+      "bgcolor" : "#ffffff",
+      "isinterrupting" : true
+    },
+    "stencil" : {
+      "id" : "StartMessageEvent"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-8770E952-175F-424E-8DC3-836D16425CB4"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 566,
+        "x" : 490
+      },
+      "upperLeft" : {
+        "y" : 526,
+        "x" : 450
+      }
+    },
+    "resourceId" : "sid-65570217-400B-403F-8299-E675853630F0",
+    "labels" : [ {
+      "ref" : "text_name",
+      "align" : "center",
+      "valign" : "middle",
+      "y" : -13,
+      "x" : -5
+    } ],
+    "childShapes" : [ ],
+    "properties" : {
+      "xortype" : "Data",
+      "monitoring" : "",
+      "defaultgate" : "",
+      "gatewaytype" : "XOR",
+      "gates" : "",
+      "assignments" : "",
+      "bgcolor" : "#ffffff",
+      "pool" : "",
+      "gate_assignments" : "",
+      "markervisible" : "true",
+      "name" : "Type of \nprofessor?",
+      "documentation" : "",
+      "gates_assignments" : "",
+      "categories" : "",
+      "gate_outgoingsequenceflow" : "",
+      "auditing" : "",
+      "lanes" : "",
+      "gates_outgoingsequenceflow" : ""
+    },
+    "stencil" : {
+      "id" : "Exclusive_Databased_Gateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-4F643104-0F6A-4DAF-8FEE-37FEA6816128"
+    }, {
+      "resourceId" : "sid-D72A08F5-3448-47B1-889A-7E9002712E2A"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 573.5,
+        "x" : 395
+      },
+      "upperLeft" : {
+        "y" : 518.5,
+        "x" : 295
+      }
+    },
+    "resourceId" : "sid-91701B2C-25CE-489A-94AF-899BF105DE7C",
+    "childShapes" : [ ],
+    "properties" : {
+      "resources" : "",
+      "outmsgstructure" : "",
+      "applyincalc" : true,
+      "loopcardinality" : "",
+      "bgcolor" : "#ffffcc",
+      "inmessagename" : "",
+      "outmessagename" : "",
+      "time" : "",
+      "loopmaximum" : "",
+      "loopdataoutput" : "",
+      "testbefore" : "",
+      "callacitivity" : "",
+      "outmsgiscollection" : "",
+      "monitoring" : "",
+      "operationname" : "",
+      "dataoutputset" : "",
+      "completionquantity" : 1,
+      "properties" : "",
+      "script" : "",
+      "assignments" : "",
+      "nonebehavioreventref" : "signal",
+      "externaldocuments" : [ ],
+      "scriptformat" : "",
+      "datainputset" : "",
+      "startquantity" : 1,
+      "tasktype" : "None",
+      "looptype" : "None",
+      "instantiate" : "",
+      "behavior" : "all",
+      "inmsgimport" : "",
+      "costs" : "",
+      "inputdataitem" : "",
+      "loopdatainput" : "",
+      "name" : "Approval\n granted\n",
+      "outmsgitemkind" : "Information",
+      "costcenter" : "",
+      "completioncondition" : "",
+      "isforcompensation" : "",
+      "risklevel" : "",
+      "inmsgiscollection" : "",
+      "inmsgitemkind" : "Information",
+      "messageref" : "",
+      "outputdataitem" : "",
+      "inmsgstructure" : "",
+      "loopcondition" : "",
+      "onebehavioreventref:" : "signal",
+      "operationref" : "",
+      "implementation" : "webService",
+      "outmsgimport" : "",
+      "documentation" : "",
+      "categories" : "",
+      "auditing" : "",
+      "complexbehaviordefinition" : ""
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-FDD6E043-F16C-44F4-B3AF-91E1BB8FBA92"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 511,
+        "x" : 610
+      },
+      "upperLeft" : {
+        "y" : 431,
+        "x" : 510
+      }
+    },
+    "resourceId" : "sid-0F7E21C8-FA0F-492E-8114-79FA03D48EC7",
+    "childShapes" : [ ],
+    "properties" : {
+      "resources" : "",
+      "outmsgstructure" : "",
+      "applyincalc" : true,
+      "loopcardinality" : "",
+      "bgcolor" : "#ffffcc",
+      "inmessagename" : "",
+      "outmessagename" : "",
+      "time" : "",
+      "loopmaximum" : "",
+      "loopdataoutput" : "",
+      "testbefore" : "",
+      "callacitivity" : "",
+      "outmsgiscollection" : "",
+      "monitoring" : "",
+      "operationname" : "",
+      "dataoutputset" : "",
+      "completionquantity" : 1,
+      "properties" : "",
+      "script" : "",
+      "assignments" : "",
+      "nonebehavioreventref" : "signal",
+      "externaldocuments" : [ ],
+      "scriptformat" : "",
+      "datainputset" : "",
+      "startquantity" : 1,
+      "tasktype" : "None",
+      "looptype" : "None",
+      "instantiate" : "",
+      "behavior" : "all",
+      "inmsgimport" : "",
+      "costs" : "",
+      "inputdataitem" : "",
+      "loopdatainput" : "",
+      "name" : "Set up meeting with the president",
+      "outmsgitemkind" : "Information",
+      "costcenter" : "",
+      "completioncondition" : "",
+      "isforcompensation" : "",
+      "risklevel" : "",
+      "inmsgiscollection" : "",
+      "inmsgitemkind" : "Information",
+      "messageref" : "",
+      "outputdataitem" : "",
+      "inmsgstructure" : "",
+      "loopcondition" : "",
+      "onebehavioreventref:" : "signal",
+      "operationref" : "",
+      "implementation" : "webService",
+      "outmsgimport" : "",
+      "documentation" : "",
+      "categories" : "",
+      "auditing" : "",
+      "complexbehaviordefinition" : ""
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-EFE79A57-DBB7-4914-9BCA-29FB126958DE"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 566,
+        "x" : 745
+      },
+      "upperLeft" : {
+        "y" : 526,
+        "x" : 705
+      }
+    },
+    "resourceId" : "sid-BEF4C977-02A7-43CC-8006-4CDD4033E589",
+    "childShapes" : [ ],
+    "properties" : {
+      "xortype" : "Data",
+      "monitoring" : "",
+      "defaultgate" : "",
+      "gatewaytype" : "XOR",
+      "gates" : "",
+      "assignments" : "",
+      "bgcolor" : "#ffffff",
+      "pool" : "",
+      "gate_assignments" : "",
+      "markervisible" : "true",
+      "name" : "",
+      "documentation" : "",
+      "gates_assignments" : "",
+      "categories" : "",
+      "gate_outgoingsequenceflow" : "",
+      "auditing" : "",
+      "lanes" : "",
+      "gates_outgoingsequenceflow" : ""
+    },
+    "stencil" : {
+      "id" : "Exclusive_Databased_Gateway"
+    },
+    "outgoing" : [ ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 666,
+        "x" : 610
+      },
+      "upperLeft" : {
+        "y" : 586,
+        "x" : 510
+      }
+    },
+    "resourceId" : "sid-215ACB4B-74B8-4EC1-A115-57BAA6D9A475",
+    "childShapes" : [ ],
+    "properties" : {
+      "resources" : "",
+      "outmsgstructure" : "",
+      "applyincalc" : true,
+      "loopcardinality" : "",
+      "bgcolor" : "#ffffcc",
+      "inmessagename" : "",
+      "outmessagename" : "",
+      "time" : "",
+      "loopmaximum" : "",
+      "loopdataoutput" : "",
+      "testbefore" : "",
+      "callacitivity" : "",
+      "outmsgiscollection" : "",
+      "monitoring" : "",
+      "operationname" : "",
+      "dataoutputset" : "",
+      "completionquantity" : 1,
+      "properties" : "",
+      "script" : "",
+      "assignments" : "",
+      "nonebehavioreventref" : "signal",
+      "externaldocuments" : [ ],
+      "scriptformat" : "",
+      "datainputset" : "",
+      "startquantity" : 1,
+      "tasktype" : "None",
+      "looptype" : "None",
+      "instantiate" : "",
+      "behavior" : "all",
+      "inmsgimport" : "",
+      "costs" : "",
+      "inputdataitem" : "",
+      "loopdatainput" : "",
+      "name" : "Set up meeting with the vice president\n",
+      "outmsgitemkind" : "Information",
+      "costcenter" : "",
+      "completioncondition" : "",
+      "isforcompensation" : "",
+      "risklevel" : "",
+      "inmsgiscollection" : "",
+      "inmsgitemkind" : "Information",
+      "messageref" : "",
+      "outputdataitem" : "",
+      "inmsgstructure" : "",
+      "loopcondition" : "",
+      "onebehavioreventref:" : "signal",
+      "operationref" : "",
+      "implementation" : "webService",
+      "outmsgimport" : "",
+      "documentation" : "",
+      "categories" : "",
+      "auditing" : "",
+      "complexbehaviordefinition" : ""
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-3E1973CC-2A01-46F4-8112-2A38427BB0F5"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 646,
+        "x" : 685
+      },
+      "upperLeft" : {
+        "y" : 606,
+        "x" : 645
+      }
+    },
+    "resourceId" : "sid-03A591C0-0A04-4A92-8986-4E20E61E1B36",
+    "labels" : [ {
+      "ref" : "text_name",
+      "align" : "center",
+      "valign" : "bottom",
+      "y" : -8,
+      "top" : true,
+      "x" : 21
+    } ],
+    "childShapes" : [ ],
+    "properties" : {
+      "xortype" : "Data",
+      "monitoring" : "",
+      "defaultgate" : "",
+      "gatewaytype" : "XOR",
+      "gates" : "",
+      "assignments" : "",
+      "bgcolor" : "#ffffff",
+      "pool" : "",
+      "gate_assignments" : "",
+      "markervisible" : "true",
+      "name" : "Ask for\napproval\n",
+      "documentation" : "",
+      "gates_assignments" : "",
+      "categories" : "",
+      "gate_outgoingsequenceflow" : "",
+      "auditing" : "",
+      "lanes" : "",
+      "gates_outgoingsequenceflow" : ""
+    },
+    "stencil" : {
+      "id" : "Exclusive_Databased_Gateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-8CF92E9E-DB73-4566-A8DE-0EAA806832E0"
+    }, {
+      "resourceId" : "sid-79890144-C038-4573-A198-8B6D292156DA"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 724,
+        "x" : 679
+      },
+      "upperLeft" : {
+        "y" : 696,
+        "x" : 651
+      }
+    },
+    "resourceId" : "sid-0F8DD4FB-4A5D-4B8D-9B2C-6D35E5499F28",
+    "childShapes" : [ ],
+    "properties" : {
+      "inputset" : "",
+      "trigger" : "None",
+      "monitoring" : "",
+      "datainputassociations" : "",
+      "name" : "Stop process",
+      "documentation" : "",
+      "datainput" : "",
+      "auditing" : "",
+      "bgcolor" : "#ffffff"
+    },
+    "stencil" : {
+      "id" : "EndNoneEvent"
+    },
+    "outgoing" : [ ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 491,
+        "x" : 685
+      },
+      "upperLeft" : {
+        "y" : 451,
+        "x" : 645
+      }
+    },
+    "resourceId" : "sid-C81FDE0F-ACA7-4BA0-99DC-41CED7D29B25",
+    "labels" : [ {
+      "ref" : "text_name",
+      "align" : "center",
+      "bottom" : true,
+      "y" : 45,
+      "x" : 21
+    } ],
+    "childShapes" : [ ],
+    "properties" : {
+      "xortype" : "Data",
+      "monitoring" : "",
+      "defaultgate" : "",
+      "gatewaytype" : "XOR",
+      "gates" : "",
+      "assignments" : "",
+      "bgcolor" : "#ffffff",
+      "pool" : "",
+      "gate_assignments" : "",
+      "markervisible" : "true",
+      "name" : "Ask for \napproval",
+      "documentation" : "",
+      "gates_assignments" : "",
+      "categories" : "",
+      "gate_outgoingsequenceflow" : "",
+      "auditing" : "",
+      "lanes" : "",
+      "gates_outgoingsequenceflow" : ""
+    },
+    "stencil" : {
+      "id" : "Exclusive_Databased_Gateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0866117C-3B79-4F45-84ED-7AE72F790E7D"
+    }, {
+      "resourceId" : "sid-407EA41A-6CA6-4CE5-ABEB-580AF9B64AEF"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 394,
+        "x" : 679
+      },
+      "upperLeft" : {
+        "y" : 366,
+        "x" : 651
+      }
+    },
+    "resourceId" : "sid-0B83C7E7-B0F0-4AAD-9106-CAB6701BBD50",
+    "labels" : [ {
+      "ref" : "text_name",
+      "valign" : "bottom",
+      "y" : -8,
+      "top" : true,
+      "x" : 15
+    } ],
+    "childShapes" : [ ],
+    "properties" : {
+      "inputset" : "",
+      "trigger" : "None",
+      "monitoring" : "",
+      "datainputassociations" : "",
+      "name" : "Stop process",
+      "documentation" : "",
+      "datainput" : "",
+      "auditing" : "",
+      "bgcolor" : "#ffffff"
+    },
+    "stencil" : {
+      "id" : "EndNoneEvent"
+    },
+    "outgoing" : [ ]
+  } ],
+  "properties" : {
+    "targetnamespace" : "http://www.signavio.com/bpmn20",
+    "author" : "",
+    "monitoring" : "",
+    "modificationdate" : "",
+    "name" : "",
+    "documentation" : "",
+    "language" : "English",
+    "typelanguage" : "http://www.w3.org/2001/XMLSchema",
+    "expressionlanguage" : "http://www.w3.org/1999/XPath",
+    "auditing" : "",
+    "creationdate" : "",
+    "namespaces" : "",
+    "version" : ""
+  },
+  "offset" : {
+    "y" : 19,
+    "x" : 36
+  },
+  "ssextensions" : [ ],
+  "stencilset" : {
+    "url" : "/stencilsets/bpmn2.0/bpmn2.0.json?version=5.0.0",
+    "namespace" : "http://b3mn.org/stencilset/bpmn2.0#"
+  },
+  "stencil" : {
+    "id" : "BPMNDiagram"
+  }
+}

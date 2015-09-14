@@ -1,0 +1,1093 @@
+{
+  "bounds" : {
+    "lowerRight" : {
+      "y" : 358.5,
+      "x" : 1833
+    },
+    "upperLeft" : {
+      "y" : 0,
+      "x" : 0
+    }
+  },
+  "resourceId" : "sid-9c83291f-9fca-4b48-b47b-fc76042510e4",
+  "childShapes" : [ {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 54,
+        "x" : 499
+      },
+      "upperLeft" : {
+        "y" : 26,
+        "x" : 471
+      }
+    },
+    "dockers" : [ {
+      "y" : 41,
+      "x" : 486
+    } ],
+    "resourceId" : "sid-bdea0bdf-c30c-4211-8a41-c69787d80641",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "StartProcess"
+    },
+    "stencil" : {
+      "id" : "StartNoneEvent"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0e7bec07-04e7-4922-891f-73be12ae0b24"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 64,
+        "x" : 694
+      },
+      "upperLeft" : {
+        "y" : 16,
+        "x" : 542
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-538cf723-40c4-4d98-8570-8a2ffb7e5329",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "User",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Make appointment",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-fbbd1376-7ae0-4ad6-98b6-1a4b35f19fae"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 76,
+        "x" : 826
+      },
+      "upperLeft" : {
+        "y" : 28,
+        "x" : 726
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-29248c8b-2698-4f00-b034-2bf673efdfb8",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "User",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Check in",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-68228a27-b2ca-4bb9-a4a7-6fef2b8e1f03"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 87,
+        "x" : 958
+      },
+      "upperLeft" : {
+        "y" : 39,
+        "x" : 858
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-fbbad60e-2229-420d-b3ae-fa2e4071f46c",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "User",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Take vital signs",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-1378e166-70f2-4703-8ea8-8263f767ac38"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 183,
+        "x" : 1222
+      },
+      "upperLeft" : {
+        "y" : 135,
+        "x" : 1122
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-b3297d0c-bba3-4fca-9a73-aa511cad84a8",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "User",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Examination",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-4f83032b-acc5-4a93-838b-0191ee04138a"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 195,
+        "x" : 60
+      },
+      "upperLeft" : {
+        "y" : 155,
+        "x" : 20
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-592449c0-0316-4ce9-b1b9-808eba0f5d42",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "Gateway"
+    },
+    "stencil" : {
+      "id" : "ParallelGateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-37e92b79-2786-4911-ae79-33abc7184e10"
+    }, {
+      "resourceId" : "sid-eb19b205-4b2d-492a-b570-a6d8620f4faf"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 119,
+        "x" : 297
+      },
+      "upperLeft" : {
+        "y" : 37,
+        "x" : 97
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-2d20b8c2-fc89-46ac-a55f-2ae0d78eb730",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "isclosed" : true,
+      "callactivity" : false,
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Schedule lab tests",
+      "isadhoc" : false,
+      "activitytype" : "Sub-Process",
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "CollapsedSubprocess"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-846e2cbb-2241-4c7b-bd94-31a3a96852ad"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 199,
+        "x" : 297
+      },
+      "upperLeft" : {
+        "y" : 151,
+        "x" : 97
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-06885dcb-7b74-45be-9302-f9ec7db792b1",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "User",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Write Rx",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-fe33cb28-d384-415c-a82d-6fad95c3882b"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 176,
+        "x" : 429
+      },
+      "upperLeft" : {
+        "y" : 128,
+        "x" : 329
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-ce6cde61-73de-46f1-9429-b2eea9d401aa",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "None",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Send to pharmacy",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-2a4b6ea8-9578-4511-a285-91cdc3c774d1"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 145,
+        "x" : 505
+      },
+      "upperLeft" : {
+        "y" : 105,
+        "x" : 465
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-69b9f50a-d42d-4dc2-8158-2b4768021540",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "Gateway"
+    },
+    "stencil" : {
+      "id" : "ParallelGateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-ab97a199-7174-46e5-bf0a-3f08559f1506"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 191,
+        "x" : 694
+      },
+      "upperLeft" : {
+        "y" : 96,
+        "x" : 542
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-9d0dd4e4-daa5-4add-b77f-b35fa279113c",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "isclosed" : true,
+      "callactivity" : false,
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Do lab tests",
+      "isadhoc" : false,
+      "activitytype" : "Sub-Process",
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "CollapsedSubprocess"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-e8a0be9d-0b52-46da-ad3f-30a9199653af"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 114,
+        "x" : 1060
+      },
+      "upperLeft" : {
+        "y" : 74,
+        "x" : 1020
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-77aad6d0-6759-4b1d-be78-5ebb45f53daa",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "markervisible" : true,
+      "name" : "Gateway"
+    },
+    "stencil" : {
+      "id" : "Exclusive_Databased_Gateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0836a950-8baa-4e6d-ac28-02db4a8342a7"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 163,
+        "x" : 928
+      },
+      "upperLeft" : {
+        "y" : 123,
+        "x" : 888
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-bf6dc51c-8dc9-4737-b58e-f662f62f9634",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "markervisible" : true,
+      "name" : "Gateway"
+    },
+    "stencil" : {
+      "id" : "Exclusive_Databased_Gateway"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-199cffe6-a3ea-45bb-b41a-9645ced6f91a"
+    }, {
+      "resourceId" : "sid-eef2f8ad-0f60-46a7-a169-816c00fee6a3"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 157,
+        "x" : 790
+      },
+      "upperLeft" : {
+        "y" : 129,
+        "x" : 762
+      }
+    },
+    "dockers" : [ {
+      "y" : 144,
+      "x" : 777
+    } ],
+    "resourceId" : "sid-b94c5cab-87eb-472a-9e18-d102fb849cc5",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "Timer",
+      "timecycle" : 1
+    },
+    "stencil" : {
+      "id" : "IntermediateTimerEvent"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-58ad65b5-066b-47d8-b533-8f08b7fd1503"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 199,
+        "x" : 1090
+      },
+      "upperLeft" : {
+        "y" : 151,
+        "x" : 990
+      }
+    },
+    "dockers" : [ ],
+    "resourceId" : "sid-af9bd2bd-c0be-4aaa-bfb9-f304c19f5991",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "callactivity" : false,
+      "tasktype" : "User",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "isatransaction" : false,
+      "completionquantity" : 1,
+      "name" : "Leave hospital",
+      "isadhoc" : false,
+      "isforcompensation" : false
+    },
+    "stencil" : {
+      "id" : "Task"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-ca39d716-57d9-4f09-8387-dbdfbd4aa46e"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 253,
+        "x" : 1186
+      },
+      "upperLeft" : {
+        "y" : 225,
+        "x" : 1158
+      }
+    },
+    "dockers" : [ {
+      "y" : 240,
+      "x" : 1173
+    } ],
+    "resourceId" : "sid-7f4b8fd3-352d-499f-b670-c7f68581ba7e",
+    "labels" : [ ],
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "End"
+    },
+    "stencil" : {
+      "id" : "EndTerminateEvent"
+    },
+    "outgoing" : [ ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 40,
+        "x" : 618
+      },
+      "upperLeft" : {
+        "y" : 30,
+        "x" : 475
+      }
+    },
+    "dockers" : [ {
+      "y" : 14,
+      "x" : 14
+    }, {
+      "y" : 24,
+      "x" : 76
+    } ],
+    "resourceId" : "sid-0e7bec07-04e7-4922-891f-73be12ae0b24",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-538cf723-40c4-4d98-8570-8a2ffb7e5329"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-538cf723-40c4-4d98-8570-8a2ffb7e5329"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 52,
+        "x" : 776
+      },
+      "upperLeft" : {
+        "y" : 40,
+        "x" : 618
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 76
+    }, {
+      "y" : 24,
+      "x" : 50
+    } ],
+    "resourceId" : "sid-fbbd1376-7ae0-4ad6-98b6-1a4b35f19fae",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-29248c8b-2698-4f00-b034-2bf673efdfb8"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-29248c8b-2698-4f00-b034-2bf673efdfb8"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 63,
+        "x" : 908
+      },
+      "upperLeft" : {
+        "y" : 52,
+        "x" : 776
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 50
+    }, {
+      "y" : 24,
+      "x" : 50
+    } ],
+    "resourceId" : "sid-68228a27-b2ca-4bb9-a4a7-6fef2b8e1f03",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-fbbad60e-2229-420d-b3ae-fa2e4071f46c"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-fbbad60e-2229-420d-b3ae-fa2e4071f46c"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 159,
+        "x" : 1172
+      },
+      "upperLeft" : {
+        "y" : 90,
+        "x" : 1036
+      }
+    },
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 24,
+      "x" : 50
+    } ],
+    "resourceId" : "sid-0836a950-8baa-4e6d-ac28-02db4a8342a7",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-b3297d0c-bba3-4fca-9a73-aa511cad84a8"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-b3297d0c-bba3-4fca-9a73-aa511cad84a8"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 175,
+        "x" : 1172
+      },
+      "upperLeft" : {
+        "y" : 159,
+        "x" : 36
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 50
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "resourceId" : "sid-4f83032b-acc5-4a93-838b-0191ee04138a",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-592449c0-0316-4ce9-b1b9-808eba0f5d42"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-592449c0-0316-4ce9-b1b9-808eba0f5d42"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 175,
+        "x" : 197
+      },
+      "upperLeft" : {
+        "y" : 78,
+        "x" : 36
+      }
+    },
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 41,
+      "x" : 100
+    } ],
+    "resourceId" : "sid-37e92b79-2786-4911-ae79-33abc7184e10",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-2d20b8c2-fc89-46ac-a55f-2ae0d78eb730"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-2d20b8c2-fc89-46ac-a55f-2ae0d78eb730"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 175,
+        "x" : 197
+      },
+      "upperLeft" : {
+        "y" : 171,
+        "x" : 36
+      }
+    },
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 24,
+      "x" : 100
+    } ],
+    "resourceId" : "sid-eb19b205-4b2d-492a-b570-a6d8620f4faf",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-06885dcb-7b74-45be-9302-f9ec7db792b1"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-06885dcb-7b74-45be-9302-f9ec7db792b1"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 175,
+        "x" : 379
+      },
+      "upperLeft" : {
+        "y" : 152,
+        "x" : 197
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 100
+    }, {
+      "y" : 24,
+      "x" : 50
+    } ],
+    "resourceId" : "sid-fe33cb28-d384-415c-a82d-6fad95c3882b",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-ce6cde61-73de-46f1-9429-b2eea9d401aa"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-ce6cde61-73de-46f1-9429-b2eea9d401aa"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 125,
+        "x" : 485
+      },
+      "upperLeft" : {
+        "y" : 78,
+        "x" : 197
+      }
+    },
+    "dockers" : [ {
+      "y" : 41,
+      "x" : 100
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "resourceId" : "sid-846e2cbb-2241-4c7b-bd94-31a3a96852ad",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-69b9f50a-d42d-4dc2-8158-2b4768021540"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-69b9f50a-d42d-4dc2-8158-2b4768021540"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 152,
+        "x" : 485
+      },
+      "upperLeft" : {
+        "y" : 121,
+        "x" : 379
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 50
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "resourceId" : "sid-2a4b6ea8-9578-4511-a285-91cdc3c774d1",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-69b9f50a-d42d-4dc2-8158-2b4768021540"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-69b9f50a-d42d-4dc2-8158-2b4768021540"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 143,
+        "x" : 618
+      },
+      "upperLeft" : {
+        "y" : 121,
+        "x" : 481
+      }
+    },
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 47,
+      "x" : 76
+    } ],
+    "resourceId" : "sid-ab97a199-7174-46e5-bf0a-3f08559f1506",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-9d0dd4e4-daa5-4add-b77f-b35fa279113c"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-9d0dd4e4-daa5-4add-b77f-b35fa279113c"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 94,
+        "x" : 1040
+      },
+      "upperLeft" : {
+        "y" : 63,
+        "x" : 908
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 50
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "resourceId" : "sid-1378e166-70f2-4703-8ea8-8263f767ac38",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-77aad6d0-6759-4b1d-be78-5ebb45f53daa"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-77aad6d0-6759-4b1d-be78-5ebb45f53daa"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 143,
+        "x" : 1040
+      },
+      "upperLeft" : {
+        "y" : 90,
+        "x" : 904
+      }
+    },
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "resourceId" : "sid-199cffe6-a3ea-45bb-b41a-9645ced6f91a",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-77aad6d0-6759-4b1d-be78-5ebb45f53daa"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : false,
+      "name" : "",
+      "conditiontype" : "Expression",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-77aad6d0-6759-4b1d-be78-5ebb45f53daa"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 143,
+        "x" : 908
+      },
+      "upperLeft" : {
+        "y" : 133,
+        "x" : 740
+      }
+    },
+    "dockers" : [ {
+      "y" : 14,
+      "x" : 14
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "resourceId" : "sid-58ad65b5-066b-47d8-b533-8f08b7fd1503",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-bf6dc51c-8dc9-4737-b58e-f662f62f9634"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-bf6dc51c-8dc9-4737-b58e-f662f62f9634"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 143,
+        "x" : 776
+      },
+      "upperLeft" : {
+        "y" : 133,
+        "x" : 618
+      }
+    },
+    "dockers" : [ {
+      "y" : 47,
+      "x" : 76
+    }, {
+      "y" : 14,
+      "x" : 14
+    } ],
+    "resourceId" : "sid-e8a0be9d-0b52-46da-ad3f-30a9199653af",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-b94c5cab-87eb-472a-9e18-d102fb849cc5"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-b94c5cab-87eb-472a-9e18-d102fb849cc5"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 175,
+        "x" : 1040
+      },
+      "upperLeft" : {
+        "y" : 139,
+        "x" : 904
+      }
+    },
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 24,
+      "x" : 50
+    } ],
+    "resourceId" : "sid-eef2f8ad-0f60-46a7-a169-816c00fee6a3",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-af9bd2bd-c0be-4aaa-bfb9-f304c19f5991"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "showdiamondmarker" : false,
+      "name" : "",
+      "conditiontype" : "Expression",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-af9bd2bd-c0be-4aaa-bfb9-f304c19f5991"
+    } ]
+  }, {
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 239,
+        "x" : 1172
+      },
+      "upperLeft" : {
+        "y" : 175,
+        "x" : 1040
+      }
+    },
+    "dockers" : [ {
+      "y" : 24,
+      "x" : 50
+    }, {
+      "y" : 14,
+      "x" : 14
+    } ],
+    "resourceId" : "sid-ca39d716-57d9-4f09-8387-dbdfbd4aa46e",
+    "labels" : [ ],
+    "target" : {
+      "resourceId" : "sid-7f4b8fd3-352d-499f-b670-c7f68581ba7e"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "name" : "",
+      "conditiontype" : "None",
+      "isimmediate" : true
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-7f4b8fd3-352d-499f-b670-c7f68581ba7e"
+    } ]
+  } ],
+  "properties" : {
+  },
+  "stencilset" : {
+    "url" : "/stencilsets/bpmn2.0/bpmn2.0.json",
+    "namespace" : "http://b3mn.org/stencilset/bpmn2.0#"
+  },
+  "ssextensions" : [ ],
+  "stencil" : {
+    "id" : "BPMNDiagram"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "model" : {
+    "numberOfRevisions" : 8,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1567509595",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-25",
+    "modelName" : "4. Validation Invoice Model",
+    "modelId" : "929053727"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 35,
+      "StartTimerEvent" : 1,
+      "Lane" : 1,
+      "TextAnnotation" : 1,
+      "ITSystem" : 1,
+      "Association_Undirected" : 2,
+      "SequenceFlow" : 14,
+      "Task" : 10,
+      "Pool" : 1,
+      "Exclusive_Databased_Gateway" : 1,
+      "IntermediateLinkEventThrowing" : 2,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 8
+  }
+}

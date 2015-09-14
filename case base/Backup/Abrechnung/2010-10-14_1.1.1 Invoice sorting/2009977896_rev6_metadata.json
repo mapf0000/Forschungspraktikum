@@ -1,0 +1,29 @@
+{
+  "model" : {
+    "numberOfRevisions" : 6,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1694406240",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-10-14",
+    "modelName" : "1.1.1 Invoice sorting",
+    "modelId" : "2009977896"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 13,
+      "IntermediateTimerEvent" : 1,
+      "Subprocess" : 1,
+      "SequenceFlow" : 5,
+      "StartNoneEvent" : 1,
+      "Task" : 3,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 6
+  }
+}

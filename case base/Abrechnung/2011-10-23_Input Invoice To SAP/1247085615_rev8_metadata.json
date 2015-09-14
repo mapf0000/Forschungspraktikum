@@ -1,0 +1,35 @@
+{
+  "model" : {
+    "numberOfRevisions" : 8,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "597255581",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-23",
+    "modelName" : "Input Invoice To SAP",
+    "modelId" : "1247085615"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 50,
+      "Lane" : 1,
+      "StartNoneEvent" : 1,
+      "Pool" : 1,
+      "Association_Unidirectional" : 7,
+      "EndErrorEvent" : 1,
+      "Association_Undirected" : 1,
+      "ITSystem" : 1,
+      "Task" : 7,
+      "DataObject" : 7,
+      "SequenceFlow" : 16,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "Exclusive_Databased_Gateway" : 5
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 8
+  }
+}

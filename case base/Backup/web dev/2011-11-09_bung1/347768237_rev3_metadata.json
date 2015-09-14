@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 3,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "78356012",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-11-09",
+    "modelName" : "?bung1",
+    "modelId" : "347768237"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 43,
+      "Lane" : 1,
+      "SequenceFlow" : 21,
+      "Task" : 11,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 3,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 3
+  }
+}

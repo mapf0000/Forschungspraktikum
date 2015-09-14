@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "409897252",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-11-09",
+    "modelName" : "Designing Implementing Website",
+    "modelId" : "185673263"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 42,
+      "Lane" : 2,
+      "SequenceFlow" : 20,
+      "Task" : 10,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 3,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "bounds" : {
+    "lowerRight" : {
+      "y" : 1050,
+      "x" : 1485
+    },
+    "upperLeft" : {
+      "y" : 0,
+      "x" : 0
+    }
+  },
+  "resourceId" : "canvas",
+  "childShapes" : [ {
+    "dockers" : [ {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    }, {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 183.13918678227498,
+        "x" : 374.5937859072874
+      },
+      "upperLeft" : {
+        "y" : 182.87144283390813,
+        "x" : 342.99999999999994
+      }
+    },
+    "resourceId" : "sid-ED1D34C4-67D2-45E1-A071-B789DE66F883",
+    "labels" : [ {
+      "ref" : "text_name",
+      "styles" : {
+        "size" : "14"
+      }
+    } ],
+    "target" : {
+      "resourceId" : "sid-E101A9CA-4E77-4871-85C1-494D747BE16D"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-E101A9CA-4E77-4871-85C1-494D747BE16D"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    }, {
+      "y" : 20,
+      "x" : 17
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 155.59029109006113,
+        "x" : 407.85025705323477
+      },
+      "upperLeft" : {
+        "y" : 100.72102590609347,
+        "x" : 387.15755544676523
+      }
+    },
+    "resourceId" : "sid-8F0A1650-F330-4799-892C-1D10C2267DB9",
+    "labels" : [ {
+      "ref" : "name",
+      "styles" : {
+        "size" : "14"
+      }
+    } ],
+    "target" : {
+      "resourceId" : "sid-7DE63A45-09F9-4F3E-9F55-E2619F891452"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "type" : "none",
+      "assignments" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Association_Undirected"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-7DE63A45-09F9-4F3E-9F55-E2619F891452"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 27.124999999999996,
+      "x" : 43
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 182.82562215809668,
+        "x" : 119.35156323640224
+      },
+      "upperLeft" : {
+        "y" : 182.7723852782753,
+        "x" : 75.48437426359776
+      }
+    },
+    "resourceId" : "sid-C3674D46-7CE8-45B2-BAEF-2DB5A58F1EAA",
+    "labels" : [ {
+      "ref" : "text_name",
+      "styles" : {
+        "size" : "14"
+      }
+    } ],
+    "target" : {
+      "resourceId" : "sid-7E913AB6-588A-4DC3-9BA0-E787D8954FCA"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-7E913AB6-588A-4DC3-9BA0-E787D8954FCA"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    }, {
+      "y" : 14,
+      "x" : 14
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 178.96740935140969,
+        "x" : 479.94086439389457
+      },
+      "upperLeft" : {
+        "y" : 177.40977247691177,
+        "x" : 460.99999999999994
+      }
+    },
+    "resourceId" : "sid-12BD8BCC-C98E-418A-8684-47408C4BED3F",
+    "labels" : [ {
+      "ref" : "text_name",
+      "styles" : {
+        "size" : "14"
+      }
+    } ],
+    "target" : {
+      "resourceId" : "sid-0D0798CD-8840-463A-82C6-5DC8FD5415CB"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-0D0798CD-8840-463A-82C6-5DC8FD5415CB"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 326,
+        "x" : 585
+      },
+      "upperLeft" : {
+        "y" : 68,
+        "x" : 15
+      }
+    },
+    "resourceId" : "sid-3254A58E-29CC-4B70-94F1-351034342451",
+    "labels" : [ {
+      "ref" : "text_name",
+      "styles" : {
+        "size" : "14"
+      }
+    } ],
+    "childShapes" : [ {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 142.003593561936,
+          "x" : 191
+        },
+        "upperLeft" : {
+          "y" : 87.75359356193599,
+          "x" : 105
+        }
+      },
+      "resourceId" : "sid-7E913AB6-588A-4DC3-9BA0-E787D8954FCA",
+      "labels" : [ {
+        "ref" : "text_name",
+        "styles" : {
+          "size" : "14"
+        }
+      } ],
+      "childShapes" : [ ],
+      "properties" : {
+        "resources" : "",
+        "outmsgstructure" : "",
+        "applyincalc" : true,
+        "loopcardinality" : "",
+        "bgcolor" : "#ffffcc",
+        "inmessagename" : "",
+        "outmessagename" : "",
+        "bordercolor" : "#000000",
+        "time" : "",
+        "loopmaximum" : "",
+        "loopdataoutput" : "",
+        "testbefore" : "",
+        "callacitivity" : "",
+        "outmsgiscollection" : "",
+        "monitoring" : "",
+        "operationname" : "",
+        "dataoutputset" : "",
+        "completionquantity" : 1,
+        "properties" : "",
+        "script" : "",
+        "assignments" : "",
+        "nonebehavioreventref" : "signal",
+        "externaldocuments" : [ ],
+        "scriptformat" : "",
+        "datainputset" : "",
+        "processid" : "",
+        "startquantity" : 1,
+        "tasktype" : "None",
+        "looptype" : "None",
+        "instantiate" : "",
+        "behavior" : "all",
+        "inmsgimport" : "",
+        "costs" : "",
+        "inputdataitem" : "",
+        "loopdatainput" : "",
+        "name" : "Sort invoices per client",
+        "outmsgitemkind" : "Information",
+        "costcenter" : "",
+        "completioncondition" : "",
+        "isforcompensation" : "",
+        "risklevel" : "",
+        "inmsgiscollection" : "",
+        "inmsgitemkind" : "Information",
+        "messageref" : "",
+        "outputdataitem" : "",
+        "inmsgstructure" : "",
+        "loopcondition" : "",
+        "onebehavioreventref:" : "signal",
+        "operationref" : "",
+        "implementation" : "webService",
+        "outmsgimport" : "",
+        "documentation" : "",
+        "categories" : "",
+        "auditing" : "",
+        "complexbehaviordefinition" : ""
+      },
+      "stencil" : {
+        "id" : "Task"
+      },
+      "outgoing" : [ {
+        "resourceId" : "sid-CEEFB035-071A-4F81-BAFB-5F4B88F0AC09"
+      }, {
+        "resourceId" : "sid-2B652769-8CEA-477C-A7B5-BBE75F8213CD"
+      } ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 142.003593561936,
+          "x" : 327.99999999999994
+        },
+        "upperLeft" : {
+          "y" : 89.00359356193599,
+          "x" : 242
+        }
+      },
+      "resourceId" : "sid-898C6574-C3D3-48D6-B092-8CCDE0A47085",
+      "labels" : [ {
+        "ref" : "text_name",
+        "styles" : {
+          "size" : "14"
+        }
+      } ],
+      "childShapes" : [ ],
+      "properties" : {
+        "resources" : "",
+        "outmsgstructure" : "",
+        "applyincalc" : true,
+        "loopcardinality" : "",
+        "bgcolor" : "#ffffcc",
+        "inmessagename" : "",
+        "outmessagename" : "",
+        "bordercolor" : "#000000",
+        "time" : "",
+        "loopmaximum" : "",
+        "loopdataoutput" : "",
+        "testbefore" : "",
+        "callacitivity" : "",
+        "outmsgiscollection" : "",
+        "monitoring" : "",
+        "operationname" : "",
+        "dataoutputset" : "",
+        "completionquantity" : 1,
+        "properties" : "",
+        "script" : "",
+        "assignments" : "",
+        "nonebehavioreventref" : "signal",
+        "externaldocuments" : [ ],
+        "scriptformat" : "",
+        "datainputset" : "",
+        "processid" : "",
+        "startquantity" : 1,
+        "tasktype" : "None",
+        "looptype" : "None",
+        "instantiate" : "",
+        "behavior" : "all",
+        "inmsgimport" : "",
+        "costs" : "",
+        "inputdataitem" : "",
+        "loopdatainput" : "",
+        "name" : "Sort invoices per vendors",
+        "outmsgitemkind" : "Information",
+        "costcenter" : "",
+        "completioncondition" : "",
+        "isforcompensation" : "",
+        "risklevel" : "",
+        "inmsgiscollection" : "",
+        "inmsgitemkind" : "Information",
+        "messageref" : "",
+        "outputdataitem" : "",
+        "inmsgstructure" : "",
+        "loopcondition" : "",
+        "onebehavioreventref:" : "signal",
+        "operationref" : "",
+        "implementation" : "webService",
+        "outmsgimport" : "",
+        "documentation" : "",
+        "categories" : "",
+        "auditing" : "",
+        "complexbehaviordefinition" : ""
+      },
+      "stencil" : {
+        "id" : "Task"
+      },
+      "outgoing" : [ {
+        "resourceId" : "sid-ED1D34C4-67D2-45E1-A071-B789DE66F883"
+      }, {
+        "resourceId" : "sid-2E79F517-2030-4B34-B173-143A2E8708C7"
+      } ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 141.003593561936,
+          "x" : 445.99999999999994
+        },
+        "upperLeft" : {
+          "y" : 88.00359356193599,
+          "x" : 360
+        }
+      },
+      "resourceId" : "sid-E101A9CA-4E77-4871-85C1-494D747BE16D",
+      "labels" : [ {
+        "ref" : "text_name",
+        "styles" : {
+          "size" : "14"
+        }
+      } ],
+      "childShapes" : [ ],
+      "properties" : {
+        "resources" : "",
+        "outmsgstructure" : "",
+        "applyincalc" : true,
+        "loopcardinality" : "",
+        "bgcolor" : "#ffffcc",
+        "inmessagename" : "",
+        "outmessagename" : "",
+        "bordercolor" : "#000000",
+        "time" : "",
+        "loopmaximum" : "",
+        "loopdataoutput" : "",
+        "testbefore" : "",
+        "callacitivity" : "",
+        "outmsgiscollection" : "",
+        "monitoring" : "",
+        "operationname" : "",
+        "dataoutputset" : "",
+        "completionquantity" : 1,
+        "properties" : "",
+        "script" : "",
+        "assignments" : "",
+        "nonebehavioreventref" : "signal",
+        "externaldocuments" : [ ],
+        "scriptformat" : "",
+        "datainputset" : "",
+        "processid" : "",
+        "startquantity" : 1,
+        "tasktype" : "None",
+        "looptype" : "None",
+        "instantiate" : "",
+        "behavior" : "all",
+        "inmsgimport" : "",
+        "costs" : "",
+        "inputdataitem" : "",
+        "loopdatainput" : "",
+        "name" : "Staple IEF",
+        "outmsgitemkind" : "Information",
+        "costcenter" : "",
+        "completioncondition" : "",
+        "isforcompensation" : "",
+        "risklevel" : "",
+        "inmsgiscollection" : "",
+        "inmsgitemkind" : "Information",
+        "messageref" : "",
+        "outputdataitem" : "",
+        "inmsgstructure" : "",
+        "loopcondition" : "",
+        "onebehavioreventref:" : "signal",
+        "operationref" : "",
+        "implementation" : "webService",
+        "outmsgimport" : "",
+        "documentation" : "",
+        "categories" : "",
+        "auditing" : "",
+        "complexbehaviordefinition" : ""
+      },
+      "stencil" : {
+        "id" : "Task"
+      },
+      "outgoing" : [ {
+        "resourceId" : "sid-8F0A1650-F330-4799-892C-1D10C2267DB9"
+      }, {
+        "resourceId" : "sid-12BD8BCC-C98E-418A-8684-47408C4BED3F"
+      }, {
+        "resourceId" : "sid-C113DE83-4E6E-48B3-91F2-E598664E5B9F"
+      } ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 122.25359356193599,
+          "x" : 493
+        },
+        "upperLeft" : {
+          "y" : 94.25359356193599,
+          "x" : 465
+        }
+      },
+      "resourceId" : "sid-0D0798CD-8840-463A-82C6-5DC8FD5415CB",
+      "labels" : [ {
+        "ref" : "text_name",
+        "styles" : {
+          "size" : "14"
+        }
+      } ],
+      "childShapes" : [ ],
+      "properties" : {
+        "inputset" : "",
+        "trigger" : "None",
+        "bordercolor" : "#000000",
+        "monitoring" : "",
+        "datainputassociations" : "",
+        "name" : "",
+        "documentation" : "",
+        "datainput" : "",
+        "auditing" : "",
+        "bgcolor" : "#ffffff"
+      },
+      "stencil" : {
+        "id" : "EndNoneEvent"
+      },
+      "outgoing" : [ ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 57,
+          "x" : 453
+        },
+        "upperLeft" : {
+          "y" : 7,
+          "x" : 353
+        }
+      },
+      "resourceId" : "sid-7DE63A45-09F9-4F3E-9F55-E2619F891452",
+      "labels" : [ {
+        "ref" : "text",
+        "styles" : {
+          "size" : "14"
+        }
+      } ],
+      "childShapes" : [ ],
+      "properties" : {
+        "bordercolor" : "#000000",
+        "text" : "In front of the invoice",
+        "textformat" : "text/plain",
+        "monitoring" : "",
+        "pool" : "",
+        "name" : "",
+        "documentation" : "",
+        "categories" : "",
+        "auditing" : "",
+        "lanes" : ""
+      },
+      "stencil" : {
+        "id" : "TextAnnotation"
+      },
+      "outgoing" : [ ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 129.753593561936,
+          "x" : 60
+        },
+        "upperLeft" : {
+          "y" : 99.75359356193599,
+          "x" : 30
+        }
+      },
+      "resourceId" : "sid-24D02043-771F-4140-A89A-2E759B0D1D30",
+      "labels" : [ {
+        "ref" : "text_name",
+        "styles" : {
+          "size" : "14"
+        }
+      } ],
+      "childShapes" : [ ],
+      "properties" : {
+        "trigger" : "None",
+        "bordercolor" : "#000000",
+        "monitoring" : "",
+        "dataoutputassociations" : "",
+        "outputset" : "",
+        "name" : "",
+        "dataoutput" : "",
+        "documentation" : "",
+        "applyincalc" : true,
+        "frequency" : "",
+        "auditing" : "",
+        "bgcolor" : "#ffffff",
+        "processid" : ""
+      },
+      "stencil" : {
+        "id" : "StartNoneEvent"
+      },
+      "outgoing" : [ {
+        "resourceId" : "sid-C3674D46-7CE8-45B2-BAEF-2DB5A58F1EAA"
+      } ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 220.15999705166814,
+          "x" : 189.4162460966745
+        },
+        "upperLeft" : {
+          "y" : 183.84000294833186,
+          "x" : 106.58375390332549
+        }
+      },
+      "resourceId" : "sid-F92AC89B-3D9D-481D-8612-13DD64298500",
+      "childShapes" : [ ],
+      "properties" : {
+        "bordercolor" : "#000000",
+        "iscollection" : "",
+        "monitoring" : "",
+        "input_output" : "None",
+        "name" : "Invoices",
+        "state" : "",
+        "documentation" : "",
+        "categories" : "",
+        "properties" : "",
+        "auditing" : "",
+        "bgcolor" : "#ffffff"
+      },
+      "stencil" : {
+        "id" : "DataObject"
+      },
+      "outgoing" : [ ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 220,
+          "x" : 326.4162460966745
+        },
+        "upperLeft" : {
+          "y" : 183.68000589666372,
+          "x" : 243.5837539033255
+        }
+      },
+      "resourceId" : "sid-2C389EF3-63AB-48F7-ACE8-DB857EF55CFA",
+      "childShapes" : [ ],
+      "properties" : {
+        "bordercolor" : "#000000",
+        "iscollection" : "",
+        "monitoring" : "",
+        "input_output" : "None",
+        "name" : "Invoices",
+        "state" : "",
+        "documentation" : "",
+        "categories" : "",
+        "properties" : "",
+        "auditing" : "",
+        "bgcolor" : "#ffffff"
+      },
+      "stencil" : {
+        "id" : "DataObject"
+      },
+      "outgoing" : [ ]
+    }, {
+      "dockers" : [ ],
+      "bounds" : {
+        "lowerRight" : {
+          "y" : 220,
+          "x" : 444.4162460966745
+        },
+        "upperLeft" : {
+          "y" : 183.68000589666372,
+          "x" : 361.5837539033255
+        }
+      },
+      "resourceId" : "sid-FDABA5D7-9558-43F7-9153-E9D1F9CDB368",
+      "childShapes" : [ ],
+      "properties" : {
+        "bordercolor" : "#000000",
+        "iscollection" : "",
+        "monitoring" : "",
+        "input_output" : "None",
+        "name" : "Invoices",
+        "state" : "",
+        "documentation" : "",
+        "categories" : "",
+        "properties" : "",
+        "auditing" : "",
+        "bgcolor" : "#ffffff"
+      },
+      "stencil" : {
+        "id" : "DataObject"
+      },
+      "outgoing" : [ ]
+    } ],
+    "properties" : {
+      "subprocesstype" : "Embedded",
+      "startquantity" : 1,
+      "looptype" : "None",
+      "processref" : "",
+      "transaction" : "",
+      "behavior" : "all",
+      "adhoccancelremaininginstances" : true,
+      "loopcardinality" : "",
+      "bgcolor" : "#ffffff",
+      "inputdataitem" : "",
+      "bordercolor" : "#000000",
+      "loopdatainput" : "",
+      "transactionmethod" : "compensate",
+      "loopdataoutput" : "",
+      "loopmaximum" : "",
+      "testbefore" : "",
+      "isatransaction" : "",
+      "name" : "Sort invoices",
+      "activitytype" : "Sub-Process",
+      "completioncondition" : "",
+      "isforcompensation" : "",
+      "adhoccompletioncondition" : "",
+      "adhocordering" : "Sequential",
+      "callacitivity" : "",
+      "outputmaps" : "",
+      "monitoring" : "",
+      "dataoutputset" : "",
+      "completionquantity" : 1,
+      "isadhoc" : "",
+      "properties" : "",
+      "outputdataitem" : "",
+      "assignments" : "",
+      "nonebehavioreventref" : "signal",
+      "loopcondition" : "",
+      "onebehavioreventref:" : "signal",
+      "inputmaps" : "",
+      "entry" : "",
+      "documentation" : "",
+      "diagramref" : "",
+      "categories" : "",
+      "auditing" : "",
+      "datainputset" : "",
+      "complexbehaviordefinition" : "",
+      "processid" : ""
+    },
+    "stencil" : {
+      "id" : "Subprocess"
+    },
+    "outgoing" : [ ]
+  }, {
+    "dockers" : [ {
+      "y" : 27.124999999999996,
+      "x" : 43
+    }, {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 183.3037190656128,
+        "x" : 256.18751040595936
+      },
+      "upperLeft" : {
+        "y" : 183.07476144514766,
+        "x" : 206
+      }
+    },
+    "resourceId" : "sid-CEEFB035-071A-4F81-BAFB-5F4B88F0AC09",
+    "labels" : [ {
+      "ref" : "text_name",
+      "styles" : {
+        "size" : "14"
+      }
+    } ],
+    "target" : {
+      "resourceId" : "sid-898C6574-C3D3-48D6-B092-8CCDE0A47085"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "showdiamondmarker" : "",
+      "monitoring" : "",
+      "name" : "",
+      "documentation" : "",
+      "probability" : "",
+      "conditiontype" : "None",
+      "conditionexpression" : "",
+      "isimmediate" : "",
+      "auditing" : ""
+    },
+    "stencil" : {
+      "id" : "SequenceFlow"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-898C6574-C3D3-48D6-B092-8CCDE0A47085"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 27.125,
+      "x" : 43
+    }, {
+      "y" : 18.159997051668142,
+      "x" : 41.41624609667451
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 251.30346431726826,
+        "x" : 163
+      },
+      "upperLeft" : {
+        "y" : 210.003593561936,
+        "x" : 163
+      }
+    },
+    "resourceId" : "sid-2B652769-8CEA-477C-A7B5-BBE75F8213CD",
+    "target" : {
+      "resourceId" : "sid-F92AC89B-3D9D-481D-8612-13DD64298500"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "text" : "",
+      "assignments" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Association_Unidirectional"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-F92AC89B-3D9D-481D-8612-13DD64298500"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    }, {
+      "y" : 18.159997051668142,
+      "x" : 41.41624609667451
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 251.30291979172023,
+        "x" : 300
+      },
+      "upperLeft" : {
+        "y" : 210.003593561936,
+        "x" : 300
+      }
+    },
+    "resourceId" : "sid-2E79F517-2030-4B34-B173-143A2E8708C7",
+    "target" : {
+      "resourceId" : "sid-2C389EF3-63AB-48F7-ACE8-DB857EF55CFA"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "text" : "",
+      "assignments" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Association_Unidirectional"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-2C389EF3-63AB-48F7-ACE8-DB857EF55CFA"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 26.5,
+      "x" : 42.99999999999997
+    }, {
+      "y" : 18.159997051668142,
+      "x" : 41.41624609667451
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 251.09979479172023,
+        "x" : 418
+      },
+      "upperLeft" : {
+        "y" : 209.003593561936,
+        "x" : 418
+      }
+    },
+    "resourceId" : "sid-C113DE83-4E6E-48B3-91F2-E598664E5B9F",
+    "target" : {
+      "resourceId" : "sid-FDABA5D7-9558-43F7-9153-E9D1F9CDB368"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "bordercolor" : "#000000",
+      "text" : "",
+      "assignments" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Association_Unidirectional"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-FDABA5D7-9558-43F7-9153-E9D1F9CDB368"
+    } ]
+  } ],
+  "properties" : {
+    "orientation" : "horizontal",
+    "monitoring" : "",
+    "modificationdate" : "",
+    "namespaces" : "",
+    "creationdate" : "",
+    "version" : "",
+    "author" : "",
+    "targetnamespace" : "http://www.signavio.com/bpmn20",
+    "name" : "",
+    "documentation" : "",
+    "language" : "English",
+    "auditing" : "",
+    "expressionlanguage" : "http://www.w3.org/1999/XPath",
+    "typelanguage" : "http://www.w3.org/2001/XMLSchema"
+  },
+  "ssextensions" : [ ],
+  "stencilset" : {
+    "url" : "/stencilsets/bpmn2.0/bpmn2.0.json?version=5.2.1",
+    "namespace" : "http://b3mn.org/stencilset/bpmn2.0#"
+  },
+  "stencil" : {
+    "id" : "BPMNDiagram"
+  }
+}

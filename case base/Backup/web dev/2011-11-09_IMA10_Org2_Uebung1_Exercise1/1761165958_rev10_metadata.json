@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 10,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "103842887",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-11-09",
+    "modelName" : "IMA10_Org2_Uebung1_Exercise1",
+    "modelId" : "1761165958"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 43,
+      "Lane" : 1,
+      "SequenceFlow" : 21,
+      "Task" : 10,
+      "StartNoneEvent" : 1,
+      "Pool" : 1,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 4,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 10
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1325957995",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-04-07",
+    "modelName" : "PIP 3A4 - Request Purchase Order",
+    "modelId" : "749623106"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 20,
+      "EventbasedGateway" : 1,
+      "Association_Undirected" : 1,
+      "TextAnnotation" : 1,
+      "SequenceFlow" : 8,
+      "Task" : 5,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 2,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

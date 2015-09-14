@@ -1,0 +1,28 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "2049623787",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-05-29",
+    "modelName" : "BPMN V1",
+    "modelId" : "650663164"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 21,
+      "SequenceFlow" : 10,
+      "Task" : 3,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 4,
+      "BPMNDiagram" : 1,
+      "StartMessageEvent" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

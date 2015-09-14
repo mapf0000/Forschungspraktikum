@@ -1,0 +1,28 @@
+{
+  "model" : {
+    "numberOfRevisions" : 4,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "434317843",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-08-30",
+    "modelName" : "Inception Iteration",
+    "modelId" : "929702903"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 20,
+      "CollapsedSubprocess" : 4,
+      "SequenceFlow" : 10,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 3
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 4
+  }
+}

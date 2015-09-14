@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1778177692",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2012-05-07",
+    "modelName" : "Job Application Process (HR)",
+    "modelId" : "943319450"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 27,
+      "Lane" : 1,
+      "SequenceFlow" : 12,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "Task" : 6,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 3,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

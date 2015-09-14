@@ -1,0 +1,28 @@
+{
+  "model" : {
+    "numberOfRevisions" : 3,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "2051834194",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-17",
+    "modelName" : "Invoice error found sub-process",
+    "modelId" : "515496813"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 15,
+      "SequenceFlow" : 7,
+      "Task" : 3,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 3
+  }
+}

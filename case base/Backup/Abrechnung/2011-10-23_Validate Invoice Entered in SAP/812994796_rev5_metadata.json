@@ -1,0 +1,37 @@
+{
+  "model" : {
+    "numberOfRevisions" : 5,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "597255581",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-23",
+    "modelName" : "Validate Invoice Entered in SAP",
+    "modelId" : "812994796"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 48,
+      "IntermediateTimerEvent" : 1,
+      "Lane" : 1,
+      "Pool" : 1,
+      "StartNoneEvent" : 1,
+      "Association_Unidirectional" : 7,
+      "EndErrorEvent" : 1,
+      "ITSystem" : 2,
+      "Association_Undirected" : 2,
+      "Task" : 7,
+      "DataObject" : 6,
+      "SequenceFlow" : 14,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 1,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 5
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "476430627",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-04-13",
+    "modelName" : "long term bluesky",
+    "modelId" : "462654743"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 17,
+      "SequenceFlow" : 8,
+      "StartNoneEvent" : 1,
+      "Task" : 4,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

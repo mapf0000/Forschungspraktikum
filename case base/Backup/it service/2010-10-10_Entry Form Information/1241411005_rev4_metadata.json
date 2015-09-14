@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 4,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "551555309",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-10-10",
+    "modelName" : "Entry Form Information",
+    "modelId" : "1241411005"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 16,
+      "TextAnnotation" : 1,
+      "Association_Undirected" : 1,
+      "SequenceFlow" : 4,
+      "StartNoneEvent" : 1,
+      "DataObject" : 2,
+      "Task" : 3,
+      "BPMNDiagram" : 1,
+      "Association_Unidirectional" : 2,
+      "IntermediateMessageEventThrowing" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "model" : {
+    "numberOfRevisions" : 6,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "802689414",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2012-07-30",
+    "modelName" : "BNFC Customer Order Management",
+    "modelId" : "1561971234"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 18,
+      "CollapsedSubprocess" : 3,
+      "Task" : 4,
+      "SequenceFlow" : 8,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 6
+  }
+}

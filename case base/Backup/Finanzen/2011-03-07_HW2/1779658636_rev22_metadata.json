@@ -1,0 +1,34 @@
+{
+  "model" : {
+    "numberOfRevisions" : 22,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "2096964587",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-03-07",
+    "modelName" : "HW2",
+    "modelId" : "1779658636"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 46,
+      "EndMessageEvent" : 1,
+      "IntermediateTimerEvent" : 2,
+      "IntermediateMessageEventCatching" : 2,
+      "StartNoneEvent" : 1,
+      "ComplexGateway" : 2,
+      "TextAnnotation" : 3,
+      "Association_Undirected" : 3,
+      "SequenceFlow" : 21,
+      "Task" : 7,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "Exclusive_Databased_Gateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 22
+  }
+}

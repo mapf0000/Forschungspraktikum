@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 6,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "236421887",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2012-03-10",
+    "modelName" : "Consistency2",
+    "modelId" : "1280796771"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 46,
+      "StartTimerEvent" : 1,
+      "SequenceFlow" : 14,
+      "DataObject" : 8,
+      "Task" : 7,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 3,
+      "BPMNDiagram" : 1,
+      "Association_Unidirectional" : 10
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 6
+  }
+}

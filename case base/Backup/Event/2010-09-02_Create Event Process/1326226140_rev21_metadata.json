@@ -1,0 +1,36 @@
+{
+  "model" : {
+    "numberOfRevisions" : 21,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "627981699",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2010-09-02",
+    "modelName" : "Create Event Process",
+    "modelId" : "1326226140"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 62,
+      "Lane" : 1,
+      "StartNoneEvent" : 1,
+      "Pool" : 1,
+      "Association_Unidirectional" : 1,
+      "InclusiveGateway" : 2,
+      "CollapsedSubprocess" : 5,
+      "TextAnnotation" : 7,
+      "Association_Undirected" : 3,
+      "DataObject" : 1,
+      "SequenceFlow" : 27,
+      "Task" : 7,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1,
+      "Exclusive_Databased_Gateway" : 4
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 21
+  }
+}

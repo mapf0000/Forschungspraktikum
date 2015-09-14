@@ -1,0 +1,30 @@
+{
+  "model" : {
+    "numberOfRevisions" : 1,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1956763365",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2012-02-21",
+    "modelName" : "Exercise 4.6",
+    "modelId" : "1127725818"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 37,
+      "StartTimerEvent" : 1,
+      "IntermediateTimerEvent" : 6,
+      "CollapsedSubprocess" : 1,
+      "SequenceFlow" : 18,
+      "Task" : 7,
+      "EndNoneEvent" : 2,
+      "Exclusive_Databased_Gateway" : 1,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "model" : {
+    "numberOfRevisions" : 5,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "2084894997",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-01-12",
+    "modelName" : "my_biz_flow",
+    "modelId" : "1723390826"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 35,
+      "Lane" : 1,
+      "SequenceFlow" : 17,
+      "Pool" : 1,
+      "Task" : 7,
+      "StartNoneEvent" : 1,
+      "EndNoneEvent" : 1,
+      "Exclusive_Databased_Gateway" : 4,
+      "BPMNDiagram" : 1,
+      "ParallelGateway" : 2
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 5
+  }
+}

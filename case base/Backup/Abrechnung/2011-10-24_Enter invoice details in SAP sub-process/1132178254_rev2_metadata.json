@@ -1,0 +1,27 @@
+{
+  "model" : {
+    "numberOfRevisions" : 2,
+    "naturalLanguage" : "en",
+    "timestampModelCollection" : null,
+    "modelingLanguage" : "bpmn20",
+    "directoryId" : "1984126434",
+    "groupName" : "BPMN2.0_Process",
+    "modelDate" : "2011-10-24",
+    "modelName" : "Enter invoice details in SAP sub-process",
+    "modelId" : "1132178254"
+  },
+  "revision" : {
+    "connectedness" : 100,
+    "elementCounts" : {
+      "total" : 8,
+      "Task" : 2,
+      "StartNoneEvent" : 1,
+      "SequenceFlow" : 3,
+      "EndNoneEvent" : 1,
+      "BPMNDiagram" : 1
+    },
+    "isLastRevision" : "true",
+    "creationDate" : null,
+    "revisionNumber" : 2
+  }
+}
