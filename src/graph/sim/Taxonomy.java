@@ -2,6 +2,7 @@ package graph.sim;
 
 public class Taxonomy {
 	public static TaxonomyNode importExport;
+	public static TaxonomyNode importExportEdges;
 	public static TaxonomyNode orders;
 	public static TaxonomyNode accounting;
 	
@@ -155,6 +156,82 @@ public class Taxonomy {
 		exportDocuments.addChild(new TaxonomyNode("submit export documents"));
 		exportDocuments.addChild(new TaxonomyNode("filling of export entries"));
 		exportDocuments.addChild(new TaxonomyNode("export declaration"));
+		
+		/**
+		 * Edge Taxonomy ImportExport
+		 */
+		TaxonomyNode importExportEdgeTaxonomy = new TaxonomyNode("import/exportEdges", 0);
+		
+		//Documents
+		TaxonomyNode paymentCheck = new TaxonomyNode("documentCheck", 0);
+		importExportEdgeTaxonomy.addChild(paymentCheck);
+		
+		TaxonomyNode paymentReq = new TaxonomyNode("paymentReq", 1);
+		paymentCheck.addChild(paymentReq);
+		paymentReq.addChild(new TaxonomyNode("Payment Required"));
+		
+		TaxonomyNode paymentNotReq = new TaxonomyNode("paymentNotReq", 1);
+		paymentCheck.addChild(paymentNotReq);
+		paymentNotReq.addChild(new TaxonomyNode("No Payment Required"));
+		
+		//Documents
+		TaxonomyNode documentCheck = new TaxonomyNode("documentCheck", 0);
+		importExportEdgeTaxonomy.addChild(documentCheck);
+		
+		TaxonomyNode documentCheckReq = new TaxonomyNode("docCheckYes", 1);
+		documentCheck.addChild(documentCheckReq);
+		documentCheckReq.addChild(new TaxonomyNode("Document CHK Required"));
+		documentCheckReq.addChild(new TaxonomyNode("Check Required"));
+		
+		TaxonomyNode documentCheckNotReq = new TaxonomyNode("docCheckNo", 1);
+		documentCheck.addChild(documentCheckNotReq);
+		documentCheckNotReq.addChild(new TaxonomyNode("Document CHK Not Required"));
+		documentCheckNotReq.addChild(new TaxonomyNode("Automatic Acceptance"));
+
+		
+		//Inspection
+		TaxonomyNode inspectionDesicion = new TaxonomyNode("inspectionDesicion", 0);
+		importExportEdgeTaxonomy.addChild(inspectionDesicion);
+		
+		TaxonomyNode inspectionDesicionPositive = new TaxonomyNode("inspectionYes", 1);
+		inspectionDesicion.addChild(inspectionDesicionPositive);
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Inspection Required"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Risky"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Problem Foud"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Suspect"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Physical  Inspection  Required"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Discrepacy found"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Inspection  Required"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Red check"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Inspoection Required"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Problems Found"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Testimony not accepted"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Sampling required"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Violative"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Violative re-sampling"));
+		inspectionDesicionPositive.addChild(new TaxonomyNode("Unsuccessful  recontioning"));
+		
+		TaxonomyNode inspectionDesicionNegative = new TaxonomyNode("inspectionNo", 1);
+		inspectionDesicion.addChild(inspectionDesicionNegative);
+		inspectionDesicionNegative.addChild(new TaxonomyNode("not required"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Inspection Not Required"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("InspectionNot Required"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("No Risk"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("No Problems found"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("No Suspect"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Physical Inspection not required"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("No Discrepacy found"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Priority Channel"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Green Check"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("No Risky"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("No Inspection Required"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Passable"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Sampling not required"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Testimony accepted"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Passable re-sampling"));
+		inspectionDesicionNegative.addChild(new TaxonomyNode("Successful Reconditioning"));
+		
+		importExportEdges = importExportEdgeTaxonomy;
 		/***
 		 * END Taxonomy
 		 */

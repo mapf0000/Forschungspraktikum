@@ -147,28 +147,16 @@ public class core {
 
 		
 		//Import-Export Evaluation:
-//		ArrayList<WorkflowGraph> importExport = BpmaiImporter.importModelsFrom("/Users/Max/Desktop/Uni/Forschungspraktikum/casebase/ImportExport");
-//		importExport.get(0).print();
-//		Retrieval ret = new Retrieval(queryIE5, importExport);
-//		ret.retrieve();
-		
-		//Bestellungen Evaluation:
-//		ArrayList<WorkflowGraph> bestellungen = BpmaiImporter.importModelsFrom("/Users/Max/Desktop/Uni/Forschungspraktikum/casebase/Bestellung");
-//		graph.sim.Similarity.sim = "lex";
-//		graph.sim.Similarity.tax = graph.sim.Taxonomy.orders;
-//		bestellungen.get(0).print();
-//		Retrieval ret2 = new Retrieval(queryB1, bestellungen);
-//		ret2.retrieve();
-		
-		//Abrechnung Evaluation
-		ArrayList<WorkflowGraph> abrechnungen = BpmaiImporter.importModelsFrom("case base/abrechnung");
-		abrechnungen.get(0).print();
+		ArrayList<WorkflowGraph> importExport = BpmaiImporter.importModelsFrom("case base/ImportExport");
 		graph.sim.Similarity.sim = "lex";
-		graph.sim.Similarity.nodeTax = graph.sim.Taxonomy.accounting;
-		Retrieval ret2 = new Retrieval(queryA1, abrechnungen);
-		ret2.retrieve();
+		Retrieval ret = new Retrieval(queryIE1, importExport);
+		ret.retrieve();
 		
-//		ArrayList<WorkflowGraph> reise = BpmaiImporter.importModelsFrom("/Users/Max/Desktop/Uni/Forschungspraktikum/casebase/reise");
+		graph.sim.Similarity.sim = "sem";
+		graph.sim.Similarity.nodeTax = graph.sim.Taxonomy.importExport;
+		graph.sim.Similarity.edgeTax = graph.sim.Taxonomy.importExportEdges;
+		ret.retrieve();
+		
 	}
 
 }

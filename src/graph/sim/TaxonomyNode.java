@@ -90,18 +90,18 @@ public class TaxonomyNode {
     		}
     		a = a.getParent();
     		b = b.getParent();
-    		System.out.println("a level: " + a.getLevel());
-    		System.out.println("b level: " + b.getLevel());
+    		//System.out.println("a level: " + a.getLevel());
+    		//System.out.println("b level: " + b.getLevel());
     		while(a.getLevel() > b.getLevel()){
     			a = a.getParent();
-    			System.out.println("Increment a");
+    			//System.out.println("Increment a");
     		}
     		while(a.getLevel() < b.getLevel()){
     			b = b.getParent();
-    			System.out.println("Increment b");
+    			//System.out.println("Increment b");
     		}
     		if(a == b){
-    			System.out.println(a.concept);
+    			//System.out.println(a.concept);
     			return a.similarity;
     		}
     		else {
