@@ -148,14 +148,27 @@ public class core {
 		
 		//Import-Export Evaluation:
 		ArrayList<WorkflowGraph> importExport = BpmaiImporter.importModelsFrom("case base/ImportExport");
-		graph.sim.Similarity.sim = "lex";
 		Retrieval ret = new Retrieval(queryIE1, importExport);
-		ret.retrieve();
-		
-		graph.sim.Similarity.sim = "sem";
+		graph.sim.Similarity.sim = "lex";
 		graph.sim.Similarity.nodeTax = graph.sim.Taxonomy.importExport;
 		graph.sim.Similarity.edgeTax = graph.sim.Taxonomy.importExportEdges;
 		ret.retrieve();
+		
+		//Bestellungen Evaluation:
+//		ArrayList<WorkflowGraph> bestellung = BpmaiImporter.importModelsFrom("case base/Bestellung");
+//		Retrieval ret2 = new Retrieval(queryB1, bestellung);
+//		graph.sim.Similarity.sim = "sem";
+//		graph.sim.Similarity.nodeTax = graph.sim.Taxonomy.orders;
+//		graph.sim.Similarity.edgeTax = graph.sim.Taxonomy.ordersEdges;
+//		ret2.retrieve();
+		
+		//Abrechnung Evaluation
+//		ArrayList<WorkflowGraph> abrechnungen = BpmaiImporter.importModelsFrom("case base/abrechnung");
+//		abrechnungen.get(0).print();
+//		graph.sim.Similarity.sim = "lex";
+//		graph.sim.Similarity.nodeTax = graph.sim.Taxonomy.accounting;
+//		Retrieval ret2 = new Retrieval(queryA1, abrechnungen);
+//		ret2.retrieve();
 		
 	}
 

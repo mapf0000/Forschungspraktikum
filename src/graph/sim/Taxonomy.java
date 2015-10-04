@@ -4,7 +4,9 @@ public class Taxonomy {
 	public static TaxonomyNode importExport;
 	public static TaxonomyNode importExportEdges;
 	public static TaxonomyNode orders;
+	public static TaxonomyNode ordersEdges;
 	public static TaxonomyNode accounting;
+	public static TaxonomyNode accountingEdges;
 	
 	static {
 		/**
@@ -600,6 +602,43 @@ public class Taxonomy {
 		 * END Taxonomy
 		 */
 		orders = ordersTaxonomy;
+		
+		/**
+		 * Edge Taxonomy ImportExport
+		 */
+		TaxonomyNode ordersEdgeTaxonomy = new TaxonomyNode("import/exportEdges", 0);
+		
+		//availability
+		TaxonomyNode availability1 = new TaxonomyNode("availability", 0);
+		ordersEdgeTaxonomy.addChild(availability1);
+		availability1.addChild(new TaxonomyNode("Check availability"));
+		
+		TaxonomyNode availabilityYes = new TaxonomyNode("availabilityYes", 0);
+		availability1.addChild(availability1);
+		availabilityYes.addChild(new TaxonomyNode("Yes"));
+		
+		TaxonomyNode availabilityNo = new TaxonomyNode("availabilityNo", 0);
+		availability1.addChild(availability1);
+		availabilityNo.addChild(new TaxonomyNode("No"));
+		
+		//procurement
+		TaxonomyNode procurement1 = new TaxonomyNode("procurement", 0);
+		ordersEdgeTaxonomy.addChild(procurement1);
+		procurement1.addChild(new TaxonomyNode("Procure"));
+		
+		//payments
+		TaxonomyNode payments = new TaxonomyNode("payments", 0);
+		ordersEdgeTaxonomy.addChild(payments);
+		
+		TaxonomyNode paymentSend = new TaxonomyNode("paymentSend", 1);
+		payments.addChild(paymentSend);
+		paymentSend.addChild(new TaxonomyNode("Send"));
+
+		
+		/***
+		 * END Taxonomy
+		 */
+		ordersEdges = ordersEdgeTaxonomy;
 	}
 	
 	static {
